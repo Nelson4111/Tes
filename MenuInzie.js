@@ -1,7 +1,7 @@
 /*
 FERNAZER
 */
-//recode by @InzieOfc
+//recode by @NelBotz
 
 process.on('uncaughtException', console.error)
 require('./setting')
@@ -282,7 +282,7 @@ let audio = {
         mediaType: 1,
         mediaUrl: '',
         title: wm,
-        body: 'InzieOfc SALAM',
+        body: 'NelBotz SALAM',
         sourceUrl: '',
         thumbnail: await (await Inziehosting.getFile('https://telegra.ph/file/d6f44478fd2ece636755e.jpg')).data,
         renderLargerThumbnail: true
@@ -296,7 +296,7 @@ let audio = {
             { remoteJid: "6285736178354-1625305606@g.us" } : {}) 
                        },
             message: {
-                conversation: `_InzieOfc INI Terverifikasi Oleh WhatsApp_`
+                conversation: `_NelBotz INI Terverifikasi Oleh WhatsApp_`
             }
         }
 
@@ -1759,20 +1759,20 @@ let limitz = db.data.users[m.sender].limit;
 menuu = `👋Hallo, ${salam} @${m?.sender.split('@')[0]} Saya Adalah ${global.botname}, Saya Siap Membantu Dalam Aktivitas Sehari-Hari Kamu 😀.
 
 > INFORMASI USER
-📍ɴᴏᴍᴏʀ : @${m?.sender.split('@')[0]}
-📍ɴᴀᴍᴀ : ${pushname}
-📍ʟɪᴍɪᴛ : ${limitz}
-📍ꜱᴛᴀᴛᴜꜱᴜꜱᴇʀ : ${isCreator ? 'ᴘʀᴇᴍɪᴜᴍ' : 'ꜰʀᴇᴇ'}
-📍ᴛᴇʀᴅᴀꜰᴛᴀʀ : ʏᴇꜱ
-📍ꜱᴀʟᴅᴏ : Rp ${toRupiah(cekSaldo(sender, db_saldo))}
+⭔ɴᴏᴍᴏʀ : @${m?.sender.split('@')[0]}
+⭔ɴᴀᴍᴀ : ${pushname}
+⭔ʟɪᴍɪᴛ : ${limitz}
+⭔ꜱᴛᴀᴛᴜꜱᴜꜱᴇʀ : ${isCreator ? 'ᴘʀᴇᴍɪᴜᴍ' : 'ꜰʀᴇᴇ'}
+⭔ᴛᴇʀᴅᴀꜰᴛᴀʀ : ʏᴇꜱ
+⭔ꜱᴀʟᴅᴏ : Rp ${toRupiah(cekSaldo(sender, db_saldo))}
 
 > INFORMASI BOT
-📍ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
-📍ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
-📍ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-📍ɴᴏ ᴏᴡɴᴇʀ : ${global.owner}
-📍ᴠᴇʀꜱɪᴏɴ : ${global.versi}
-📍ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ : ${totalFitur()}  ꜰɪᴛᴜʀ
+⭔ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
+⭔ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
+⭔ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+⭔ɴᴏ ᴏᴡɴᴇʀ : ${global.owner}
+⭔ᴠᴇʀꜱɪᴏɴ : ${global.versi}
+⭔ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ : ${totalFitur()}  ꜰɪᴛᴜʀ
 
 *☑️𝙶𝚞𝚗𝚊𝚔𝚊𝚗 𝚋𝚘𝚝 𝚍𝚎𝚗𝚐𝚊𝚗 𝚋𝚊𝚒𝚔.*
 *☑️𝙹𝚊𝚗𝚐𝚊𝚗 𝚜𝚙𝚊𝚖.*
@@ -1793,7 +1793,7 @@ let msg = generateWAMessageFromContent(from, {
           }),
           header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./asset/image/thum.jpeg')}, { upload: Inziehosting.waUploadToServer})), 
-                  title: '`AUTO UPDATE YT InzieOfc`',
+                  title: '`AUTO UPDATE NelBotz`',
                   gifPlayback: false,
                   subtitle: ownername,
                   hasMediaAttachment: false  
@@ -1806,11 +1806,11 @@ let msg = generateWAMessageFromContent(from, {
               },              
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE\",\"url\":\"https://youtube.com/@InzieOfc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE\",\"url\":\"https://youtube.com/@NelBotz\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB\",\"url\":\"https://github.com/@BotAnjayy\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"SALURAN\",\"url\":\"https://whatsapp.com/channel/0029Vam3S2kB4hdRByB6XH3V\",\"merchant_url\":\"https://www.google.com\"}"
               },                          
               {
                 "name": "quick_reply",
@@ -1848,1278 +1848,1278 @@ let limitz = db.data.users[m.sender].limit;
 menuu = `Saya Adalah ${global.botname}, Saya Siap Membantu Dalam Aktivitas Sehari-Hari Kamu 😀.
 
 > INFORMASI USER
-📍ɴᴏᴍᴏʀ : @${m?.sender.split('@')[0]}
-📍ɴᴀᴍᴀ : ${pushname}
-📍ʟɪᴍɪᴛ : ${limitz}
-📍ꜱᴛᴀᴛᴜꜱᴜꜱᴇʀ : ${isCreator ? 'ᴘʀᴇᴍɪᴜᴍ' : 'ꜰʀᴇᴇ'}
-📍ᴛᴇʀᴅᴀꜰᴛᴀʀ : ʏᴇꜱ
-📍ꜱᴀʟᴅᴏ : Rp ${toRupiah(cekSaldo(sender, db_saldo))}
+⭔ɴᴏᴍᴏʀ : @${m?.sender.split('@')[0]}
+⭔ɴᴀᴍᴀ : ${pushname}
+⭔ʟɪᴍɪᴛ : ${limitz}
+⭔ꜱᴛᴀᴛᴜꜱᴜꜱᴇʀ : ${isCreator ? 'ᴘʀᴇᴍɪᴜᴍ' : 'ꜰʀᴇᴇ'}
+⭔ᴛᴇʀᴅᴀꜰᴛᴀʀ : ʏᴇꜱ
+⭔ꜱᴀʟᴅᴏ : Rp ${toRupiah(cekSaldo(sender, db_saldo))}
 
 > INFORMASI BOT
-📍ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
-📍ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
-📍ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
-📍ɴᴏ ᴏᴡɴᴇʀ : ${global.owner}
-📍ᴠᴇʀꜱɪᴏɴ : ${global.versi}
-📍ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ : ${totalFitur()}  ꜰɪᴛᴜʀ
+⭔ʙᴏᴛ ɴᴀᴍᴇ : ${global.botname}
+⭔ᴏᴡɴᴇʀ ɴᴀᴍᴇ : ${global.ownername}
+⭔ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+⭔ɴᴏ ᴏᴡɴᴇʀ : ${global.owner}
+⭔ᴠᴇʀꜱɪᴏɴ : ${global.versi}
+⭔ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ : ${totalFitur()}  ꜰɪᴛᴜʀ
 
 *☑️𝙶𝚞𝚗𝚊𝚔𝚊𝚗 𝚋𝚘𝚝 𝚍𝚎𝚗𝚐𝚊𝚗 𝚋𝚊𝚒𝚔.*
 *☑️𝙹𝚊𝚗𝚐𝚊𝚗 𝚜𝚙𝚊𝚖.*‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎
 ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎
 
  *MAIN MENU*
-📍 infobot
+⭔ infobot
 ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎
  *OWNER MENU*
-📍 ᴀᴅᴅᴘʀᴇᴍ
-📍 ᴀᴅᴅᴘʀᴇᴍ
-📍 ᴅᴇʟᴘʀᴇᴍ
-📍 ʙᴄɢᴄ
-📍 ɪᴘʙᴏᴛ
-📍 ʟᴇᴀᴠᴇɢᴄ
-📍 ꜱᴇᴛʙɪᴏʙᴏᴛ
-📍 ᴅᴇʟᴇᴛᴇᴘᴘʙᴏᴛ
-📍 ᴅᴇʟᴄʜᴀᴛ
-📍 ᴅᴇʟ
-📍 ɪɴᴠɪᴛᴇ
-📍 ʙᴄɪᴍɢ
-📍 ʀᴇꜱᴛᴀʀᴛ
-📍 ᴅᴇʟᴄᴀꜱᴇ
-📍 ᴅᴇʟ
-📍 ꜱᴇʟꜰ
-📍 addlimit
-📍 resetlimit
-📍 ᴅᴇʟᴄᴀꜱᴇ
-📍 ᴀᴅᴅᴄᴀꜱᴇ
-📍 ᴘᴜʙʟɪᴄ
-📍 ᴀᴜᴛᴏʀᴇᴀᴅ
-📍 ᴀᴜᴛᴏʙɪᴏ
-📍 ɢᴇᴛᴄᴀꜱᴇ
-📍 ʀᴇᴀᴅᴄʜᴀɴɢᴇ
-📍 ʙɪᴏᴄʜᴀɴɢᴇ
-📍 ꜱᴇᴛᴘᴘʙᴏᴛ
-📍 ᴜɴʙʟᴄᴏᴋ
-📍 ʙʟᴏᴄᴋ
-📍 ᴄʀᴇᴀᴛᴇɢᴄ
-📍 ʟɪꜱᴛᴘᴄ
-📍 ᴊᴏɪɴ
-📍 addgc
-📍 delgc
-📍 clearall
+⭔ ᴀᴅᴅᴘʀᴇᴍ
+⭔ ᴀᴅᴅᴘʀᴇᴍ
+⭔ ᴅᴇʟᴘʀᴇᴍ
+⭔ ʙᴄɢᴄ
+⭔ ɪᴘʙᴏᴛ
+⭔ ʟᴇᴀᴠᴇɢᴄ
+⭔ ꜱᴇᴛʙɪᴏʙᴏᴛ
+⭔ ᴅᴇʟᴇᴛᴇᴘᴘʙᴏᴛ
+⭔ ᴅᴇʟᴄʜᴀᴛ
+⭔ ᴅᴇʟ
+⭔ ɪɴᴠɪᴛᴇ
+⭔ ʙᴄɪᴍɢ
+⭔ ʀᴇꜱᴛᴀʀᴛ
+⭔ ᴅᴇʟᴄᴀꜱᴇ
+⭔ ᴅᴇʟ
+⭔ ꜱᴇʟꜰ
+⭔ addlimit
+⭔ resetlimit
+⭔ ᴅᴇʟᴄᴀꜱᴇ
+⭔ ᴀᴅᴅᴄᴀꜱᴇ
+⭔ ᴘᴜʙʟɪᴄ
+⭔ ᴀᴜᴛᴏʀᴇᴀᴅ
+⭔ ᴀᴜᴛᴏʙɪᴏ
+⭔ ɢᴇᴛᴄᴀꜱᴇ
+⭔ ʀᴇᴀᴅᴄʜᴀɴɢᴇ
+⭔ ʙɪᴏᴄʜᴀɴɢᴇ
+⭔ ꜱᴇᴛᴘᴘʙᴏᴛ
+⭔ ᴜɴʙʟᴄᴏᴋ
+⭔ ʙʟᴏᴄᴋ
+⭔ ᴄʀᴇᴀᴛᴇɢᴄ
+⭔ ʟɪꜱᴛᴘᴄ
+⭔ ᴊᴏɪɴ
+⭔ addgc
+⭔ delgc
+⭔ clearall
 
  *FUN MENU*
-📍 ᴄᴀɴᴛɪᴋᴄᴇᴋ
-📍 ᴡᴀɴɢʏ
-📍 ꜱᴀɴɢᴇᴄᴇᴋ
-📍 ᴋᴀᴘᴀɴᴋᴀʜ
-📍 ʀᴀᴛᴇ
-📍 ᴊᴏᴍᴏᴋᴄᴇᴋ
-📍 ɢᴀɴᴛᴇɴɢᴄᴇᴋ
-📍 ᴄᴇᴋᴀꜱᴀʟᴍᴇᴍʙᴇʀ
-📍 ᴛᴛꜱ
-📍 ᴛɪᴋᴛᴏᴋꜱᴛᴀʟᴋ
-📍 ᴋᴀʟᴋᴜʟᴀᴛᴏʀ
-📍 ʀᴠᴏ
-📍 ᴜᴘꜱᴡ
-📍 ɢᴇᴛꜱᴡ
-📍 ʟɪꜱᴛꜱᴡ
-📍 ᴛᴏᴛᴀʟꜰɪᴛᴜʀᴇ
-📍 ꜰᴇɴɢꜱʜᴜɪ
-📍 ᴀʀᴛɪᴛᴀʀᴏᴛ
-📍 ᴘᴏᴛᴇɴꜱɪᴘᴇɴʏᴀᴋɪᴛ
-📍 ʀᴀᴍᴀʟᴀɴɴᴀꜱɪʙ
-📍 ᴘᴇᴋᴇʀᴊᴀᴀɴ
-📍 ʀᴇᴊᴇᴋɪ
-📍 ꜱɪꜰᴀᴛᴜꜱᴀʜᴀ
-📍 ᴊᴀᴅɪᴀɴᴘᴇʀɴɪᴋᴀʜᴀɴ
-📍 ᴋᴇᴄᴏᴄᴏᴋᴀɴᴘᴀꜱᴀɴɢᴀɴ
-📍 ᴋᴇᴄᴏᴄᴏᴋᴀɴᴀᴍᴀ
-📍 ᴀʀᴛɪɴᴀᴍᴀ
-📍 ʀᴀᴍᴀʟᴀɴᴊᴏᴅᴏʜ
-📍 ᴀʀᴛɪᴍɪᴍᴘɪ
-📍 ᴇᴍᴏᴊɪᴍɪx2
-📍 ᴇᴍᴏᴊɪᴍɪx
-📍 ᴄᴏᴜᴘʟᴇ
-📍 ᴀᴘᴀᴋᴀʜ
-📍 ᴀꜰᴋ
-📍 cekkhodam
-📍 cekkhodam2
-📍 cekmemek
-📍 cekkontol
+⭔ ᴄᴀɴᴛɪᴋᴄᴇᴋ
+⭔ ᴡᴀɴɢʏ
+⭔ ꜱᴀɴɢᴇᴄᴇᴋ
+⭔ ᴋᴀᴘᴀɴᴋᴀʜ
+⭔ ʀᴀᴛᴇ
+⭔ ᴊᴏᴍᴏᴋᴄᴇᴋ
+⭔ ɢᴀɴᴛᴇɴɢᴄᴇᴋ
+⭔ ᴄᴇᴋᴀꜱᴀʟᴍᴇᴍʙᴇʀ
+⭔ ᴛᴛꜱ
+⭔ ᴛɪᴋᴛᴏᴋꜱᴛᴀʟᴋ
+⭔ ᴋᴀʟᴋᴜʟᴀᴛᴏʀ
+⭔ ʀᴠᴏ
+⭔ ᴜᴘꜱᴡ
+⭔ ɢᴇᴛꜱᴡ
+⭔ ʟɪꜱᴛꜱᴡ
+⭔ ᴛᴏᴛᴀʟꜰɪᴛᴜʀᴇ
+⭔ ꜰᴇɴɢꜱʜᴜɪ
+⭔ ᴀʀᴛɪᴛᴀʀᴏᴛ
+⭔ ᴘᴏᴛᴇɴꜱɪᴘᴇɴʏᴀᴋɪᴛ
+⭔ ʀᴀᴍᴀʟᴀɴɴᴀꜱɪʙ
+⭔ ᴘᴇᴋᴇʀᴊᴀᴀɴ
+⭔ ʀᴇᴊᴇᴋɪ
+⭔ ꜱɪꜰᴀᴛᴜꜱᴀʜᴀ
+⭔ ᴊᴀᴅɪᴀɴᴘᴇʀɴɪᴋᴀʜᴀɴ
+⭔ ᴋᴇᴄᴏᴄᴏᴋᴀɴᴘᴀꜱᴀɴɢᴀɴ
+⭔ ᴋᴇᴄᴏᴄᴏᴋᴀɴᴀᴍᴀ
+⭔ ᴀʀᴛɪɴᴀᴍᴀ
+⭔ ʀᴀᴍᴀʟᴀɴᴊᴏᴅᴏʜ
+⭔ ᴀʀᴛɪᴍɪᴍᴘɪ
+⭔ ᴇᴍᴏᴊɪᴍɪx2
+⭔ ᴇᴍᴏᴊɪᴍɪx
+⭔ ᴄᴏᴜᴘʟᴇ
+⭔ ᴀᴘᴀᴋᴀʜ
+⭔ ᴀꜰᴋ
+⭔ cekkhodam
+⭔ cekkhodam2
+⭔ cekmemek
+⭔ cekkontol
 
  *ANTI MENU*   
-📍 ᴀɴᴛɪʙᴏᴛ
-📍 ᴀɴᴛɪᴡᴀᴍᴇ
-📍 ᴀɴᴛɪᴀꜱɪɴɢ
-📍 ᴀɴᴛɪᴠɪʀᴛᴇx
-📍 ᴀɴᴛɪʟɪɴᴋᴀʟʟ
-📍 ᴀɴᴛɪʟɪɴᴋꜰʙ
-📍 ᴀɴᴛɪʟɪɴᴋʏᴛ
-📍 ᴀɴᴛɪʟɪɴᴋʏᴛᴄʜ
-📍 ᴀɴᴛɪʟɪɴᴋɪɢ
-📍 ᴀɴᴛɪʟɪɴᴋᴛᴇʟᴇ
-📍 ᴀɴᴛɪʟɪɴᴋᴛɪᴋᴛᴏᴋ
-📍 ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛᴛᴇʀ
-📍 ᴀɴᴛɪʟɪɴᴋ
+⭔ ᴀɴᴛɪʙᴏᴛ
+⭔ ᴀɴᴛɪᴡᴀᴍᴇ
+⭔ ᴀɴᴛɪᴀꜱɪɴɢ
+⭔ ᴀɴᴛɪᴠɪʀᴛᴇx
+⭔ ᴀɴᴛɪʟɪɴᴋᴀʟʟ
+⭔ ᴀɴᴛɪʟɪɴᴋꜰʙ
+⭔ ᴀɴᴛɪʟɪɴᴋʏᴛ
+⭔ ᴀɴᴛɪʟɪɴᴋʏᴛᴄʜ
+⭔ ᴀɴᴛɪʟɪɴᴋɪɢ
+⭔ ᴀɴᴛɪʟɪɴᴋᴛᴇʟᴇ
+⭔ ᴀɴᴛɪʟɪɴᴋᴛɪᴋᴛᴏᴋ
+⭔ ᴀɴᴛɪʟɪɴᴋᴛᴡɪᴛᴛᴇʀ
+⭔ ᴀɴᴛɪʟɪɴᴋ
      
  *TOP UP MENU*
-📍 pembayarandm
-📍 topup
-📍 pubg
-📍 ml
-📍 ff
+⭔ pembayarandm
+⭔ topup
+⭔ pubg
+⭔ ml
+⭔ ff
 
 *SALDO MENU*
-📍 ᴅᴀɴᴀ
-📍 ʙᴜʏꜱᴄ
-📍 1gbsaldo
-📍 2gbsaldo
-📍 3gbsaldo
-📍 4gbsaldo
-📍 5gbsaldo
-📍 6gbsaldo
-📍 7gbsaldo
-📍 8gbsaldo
-📍 unlisaldo
-📍 ᴀᴅᴅꜱᴀʟᴅᴏ
-📍 ᴍɪɴꜱᴀʟᴅᴏ
-📍 buysrv
-📍 buyscMenuInzie
-📍 ꜱᴀʟᴅᴏ
-📍 pembayaran
-📍 dana
-📍 qria
-📍 depo
-📍 saldo
-📍 trxgagal
+⭔ ᴅᴀɴᴀ
+⭔ ʙᴜʏꜱᴄ
+⭔ 1gbsaldo
+⭔ 2gbsaldo
+⭔ 3gbsaldo
+⭔ 4gbsaldo
+⭔ 5gbsaldo
+⭔ 6gbsaldo
+⭔ 7gbsaldo
+⭔ 8gbsaldo
+⭔ unlisaldo
+⭔ ᴀᴅᴅꜱᴀʟᴅᴏ
+⭔ ᴍɪɴꜱᴀʟᴅᴏ
+⭔ buysrv
+⭔ buyscMenuInzie
+⭔ ꜱᴀʟᴅᴏ
+⭔ pembayaran
+⭔ dana
+⭔ qria
+⭔ depo
+⭔ saldo
+⭔ trxgagal
 
  *BERITA MENU*
-📍 ꜰᴀᴊᴀʀ
-📍 ᴄɴɴ
-📍 ʟᴀʏᴀʀᴋᴀᴄᴀ
-📍 ᴄɴʙᴄ
-📍 ᴛʀɪʙᴜɴ
-📍 ɪɴᴅᴏᴢᴏɴᴇ
-📍 ᴋᴏᴍᴘᴀꜱ
-📍 ᴅᴇᴛɪᴋ
-📍 ᴅᴀɪʟʏ
-📍 ɪɴᴇᴡꜱ
-📍 ᴏᴋᴇᴢᴏɴᴇ
-📍 ꜱɪɴᴅᴏ
-📍 ᴛᴇᴍᴘᴏ
-📍 ᴀɴᴛᴀʀᴀ
-📍 ᴋᴏɴᴛᴀɴ
-📍 ᴍᴇʀᴅᴇᴋᴀ
-📍 ᴊᴀʟᴀɴᴛɪᴋᴜꜱ-ᴍᴇᴍᴇ
-📍 ɢᴇᴍᴘᴀ
-📍 ɢᴇᴍᴘᴀ
-📍 ᴀꜰᴋ
+⭔ ꜰᴀᴊᴀʀ
+⭔ ᴄɴɴ
+⭔ ʟᴀʏᴀʀᴋᴀᴄᴀ
+⭔ ᴄɴʙᴄ
+⭔ ᴛʀɪʙᴜɴ
+⭔ ɪɴᴅᴏᴢᴏɴᴇ
+⭔ ᴋᴏᴍᴘᴀꜱ
+⭔ ᴅᴇᴛɪᴋ
+⭔ ᴅᴀɪʟʏ
+⭔ ɪɴᴇᴡꜱ
+⭔ ᴏᴋᴇᴢᴏɴᴇ
+⭔ ꜱɪɴᴅᴏ
+⭔ ᴛᴇᴍᴘᴏ
+⭔ ᴀɴᴛᴀʀᴀ
+⭔ ᴋᴏɴᴛᴀɴ
+⭔ ᴍᴇʀᴅᴇᴋᴀ
+⭔ ᴊᴀʟᴀɴᴛɪᴋᴜꜱ-ᴍᴇᴍᴇ
+⭔ ɢᴇᴍᴘᴀ
+⭔ ɢᴇᴍᴘᴀ
+⭔ ᴀꜰᴋ
 
  *SCRIPT MENU*
-📍 ʙᴜʏꜱᴄ1
-📍 ʙᴜʏꜱᴄ2
-📍 ʙᴜʏꜱᴄ3
-📍 ʙᴜʏꜱᴄ4
-📍 ʙᴜʏꜱᴄ5
-📍 ʙᴜʏꜱᴄ6
-📍 ʙᴜʏꜱᴄ7
-📍 ʙᴜʏꜱᴄ8
-📍 ʙᴜʏꜱᴄ9
-📍 ʙᴜʏꜱᴄ10
-📍 ʙᴜʏꜱᴄ11
-📍 buyscjpmv1
-📍 buyscjpmv3
-📍 buyscjpmv2
-📍 buymodule
-📍 buyscpushkontak
-📍 buyscbugv3
-📍 buyscjagagrupv2
-📍 buyscpushautosave
-📍 buyscbugv1
-📍 buyscbugv2
-📍 buyscpushautosave
+⭔ ʙᴜʏꜱᴄ1
+⭔ ʙᴜʏꜱᴄ2
+⭔ ʙᴜʏꜱᴄ3
+⭔ ʙᴜʏꜱᴄ4
+⭔ ʙᴜʏꜱᴄ5
+⭔ ʙᴜʏꜱᴄ6
+⭔ ʙᴜʏꜱᴄ7
+⭔ ʙᴜʏꜱᴄ8
+⭔ ʙᴜʏꜱᴄ9
+⭔ ʙᴜʏꜱᴄ10
+⭔ ʙᴜʏꜱᴄ11
+⭔ buyscjpmv1
+⭔ buyscjpmv3
+⭔ buyscjpmv2
+⭔ buymodule
+⭔ buyscpushkontak
+⭔ buyscbugv3
+⭔ buyscjagagrupv2
+⭔ buyscpushautosave
+⭔ buyscbugv1
+⭔ buyscbugv2
+⭔ buyscpushautosave
 
  *ASUPAN MENU*
-📍 ᴄᴇᴄᴀɴɪɴᴅᴏ
-📍 ᴄᴇᴄᴀɴᴄʜɪɴᴀ
-📍 ᴄᴇᴄᴀɴʜɪᴊᴀʙᴇʀ
-📍 ᴄᴇᴄᴀɴᴍᴀʟᴀʏꜱɪᴀ
-📍 ᴄᴇᴄᴀɴᴠɪᴇᴛɴᴀᴍ
-📍 ᴄᴇᴄᴀɴᴋᴏʀᴇᴀ
-📍 ᴄᴇᴄᴀɴᴊᴇᴘᴀɴ
-📍 ᴄᴇᴄᴀɴ
+⭔ ᴄᴇᴄᴀɴɪɴᴅᴏ
+⭔ ᴄᴇᴄᴀɴᴄʜɪɴᴀ
+⭔ ᴄᴇᴄᴀɴʜɪᴊᴀʙᴇʀ
+⭔ ᴄᴇᴄᴀɴᴍᴀʟᴀʏꜱɪᴀ
+⭔ ᴄᴇᴄᴀɴᴠɪᴇᴛɴᴀᴍ
+⭔ ᴄᴇᴄᴀɴᴋᴏʀᴇᴀ
+⭔ ᴄᴇᴄᴀɴᴊᴇᴘᴀɴ
+⭔ ᴄᴇᴄᴀɴ
 
  *MAIN MENU*
-📍 ᴏᴡɴᴇʀ
-📍 ʟɪꜱᴛᴘʀᴇᴍ
-📍 ʀᴜɴᴛɪᴍᴇ
-📍 ᴛᴏᴛᴀʟꜰɪᴛᴜʀᴇ
-📍 ʟɪꜱᴛɢᴄ
-📍 ᴄᴇᴋꜱɴ
-📍 ʜᴅʀ
-📍 limit
-📍 ᴘᴇᴍʙᴀʏᴀʀᴀɴ
-📍 ꜱᴇᴡᴀ
-📍 ʀᴇɢɪꜱᴛᴇʀ
-📍 ꜱᴄʀɪᴘᴛ
-📍 ᴘɪɴ
-📍 ᴅᴇʟ
-📍 ɢᴄʙᴏᴛ
-📍 ᴘʀᴏꜰɪʟᴇ
-📍 ꜱᴛɪᴄᴋᴇʀ
-📍 ᴄᴇᴋɢᴄ
-📍 ɪᴅʙᴀʜᴀꜱᴀ
-📍 ᴀꜰᴋ
-📍 request
-📍 reportbug
+⭔ ᴏᴡɴᴇʀ
+⭔ ʟɪꜱᴛᴘʀᴇᴍ
+⭔ ʀᴜɴᴛɪᴍᴇ
+⭔ ᴛᴏᴛᴀʟꜰɪᴛᴜʀᴇ
+⭔ ʟɪꜱᴛɢᴄ
+⭔ ᴄᴇᴋꜱɴ
+⭔ ʜᴅʀ
+⭔ limit
+⭔ ᴘᴇᴍʙᴀʏᴀʀᴀɴ
+⭔ ꜱᴇᴡᴀ
+⭔ ʀᴇɢɪꜱᴛᴇʀ
+⭔ ꜱᴄʀɪᴘᴛ
+⭔ ᴘɪɴ
+⭔ ᴅᴇʟ
+⭔ ɢᴄʙᴏᴛ
+⭔ ᴘʀᴏꜰɪʟᴇ
+⭔ ꜱᴛɪᴄᴋᴇʀ
+⭔ ᴄᴇᴋɢᴄ
+⭔ ɪᴅʙᴀʜᴀꜱᴀ
+⭔ ᴀꜰᴋ
+⭔ request
+⭔ reportbug
 
  *PERANG MENU*
-📍 ᴛᴇᴍᴘ-ʙᴀɴ
-📍 Santai
-📍 Bugall
-📍 Gascok
-📍 Spam
-📍 Bugwebpage
-📍 Santet
-📍 Buglokasi
-📍 Tahu
-📍 Bantai 
-📍 Santettroli 
-📍 Santetinvite 
-📍 Crashgc 
-📍 Tahugc 
-📍 Santetgctroli 
-📍 Buginvitegc 
-📍 Inziehosting
-📍 goyang
-📍 ddos
-📍 mix
+⭔ ᴛᴇᴍᴘ-ʙᴀɴ
+⭔ Santai
+⭔ Bugall
+⭔ Gascok
+⭔ Spam
+⭔ Bugwebpage
+⭔ Santet
+⭔ Buglokasi
+⭔ Tahu
+⭔ Bantai 
+⭔ Santettroli 
+⭔ Santetinvite 
+⭔ Crashgc 
+⭔ Tahugc 
+⭔ Santetgctroli 
+⭔ Buginvitegc 
+⭔ Inziehosting
+⭔ goyang
+⭔ ddos
+⭔ mix
 
  *DOWNLOAD MENU*
-📍 ᴘʟᴀʏ
-📍 song
-📍 ʏᴛᴍᴘ3
-📍 ɪɴꜱᴛᴀɢʀᴀᴍ
-📍 ᴛɪᴋᴛᴏᴋ
-📍 ꜱᴘᴏᴛɪꜰʏ
-📍 tiktokaudio
-📍 ᴍᴇᴅɪᴀꜰɪʀᴇ
-📍 yts
-📍 ɢᴏᴏɢʟᴇ
-📍 ᴛᴡɪᴛᴛᴇʀ
-📍 ɢᴅʀɪᴠᴇ
-📍 ɢɪᴛᴄʟᴏɴᴇ
-📍 ᴘɪɴ
-📍 ᴄᴀᴘᴄᴜᴛ
-📍 fb
+⭔ ᴘʟᴀʏ
+⭔ song
+⭔ ʏᴛᴍᴘ3
+⭔ ɪɴꜱᴛᴀɢʀᴀᴍ
+⭔ ᴛɪᴋᴛᴏᴋ
+⭔ ꜱᴘᴏᴛɪꜰʏ
+⭔ tiktokaudio
+⭔ ᴍᴇᴅɪᴀꜰɪʀᴇ
+⭔ yts
+⭔ ɢᴏᴏɢʟᴇ
+⭔ ᴛᴡɪᴛᴛᴇʀ
+⭔ ɢᴅʀɪᴠᴇ
+⭔ ɢɪᴛᴄʟᴏɴᴇ
+⭔ ᴘɪɴ
+⭔ ᴄᴀᴘᴄᴜᴛ
+⭔ fb
 
 
  *AI MENU*
-📍 ᴀɪ
-📍 ᴏᴘᴇɴᴀɪ
-📍 ꜱɪᴍɪ
-📍 ᴀᴜᴛᴏᴀɪ
-📍 ꜱɪᴍɪꜱɪᴍɪ
-📍 ᴛᴏᴢᴏᴍʙɪᴇ
+⭔ ᴀɪ
+⭔ ᴏᴘᴇɴᴀɪ
+⭔ ꜱɪᴍɪ
+⭔ ᴀᴜᴛᴏᴀɪ
+⭔ ꜱɪᴍɪꜱɪᴍɪ
+⭔ ᴛᴏᴢᴏᴍʙɪᴇ
 
  *PENGUBAH MENU*
-📍 ᴛᴏᴜʀʟ
-📍 ꜱᴛɪᴄᴋᴇʀ
-📍 ꜱᴍᴇᴍᴇ
-📍 ʜᴅʀ
-📍 ɢᴇᴛᴘɪᴄ
-📍 ɢᴇᴛɴᴀᴍᴇ
-📍 qc
-📍 ᴛᴏᴀᴜᴅɪᴏ
-📍 ᴏʙꜰᴜꜱ
-📍 ꜱꜱᴡᴇʙ
-📍 ᴛᴏɪᴍɢ
-📍 ᴛᴏᴢᴏᴍʙɪᴇ
-📍 ʀᴇᴍᴏᴠᴇʙɢ
+⭔ ᴛᴏᴜʀʟ
+⭔ ꜱᴛɪᴄᴋᴇʀ
+⭔ ꜱᴍᴇᴍᴇ
+⭔ ʜᴅʀ
+⭔ ɢᴇᴛᴘɪᴄ
+⭔ ɢᴇᴛɴᴀᴍᴇ
+⭔ qc
+⭔ ᴛᴏᴀᴜᴅɪᴏ
+⭔ ᴏʙꜰᴜꜱ
+⭔ ꜱꜱᴡᴇʙ
+⭔ ᴛᴏɪᴍɢ
+⭔ ᴛᴏᴢᴏᴍʙɪᴇ
+⭔ ʀᴇᴍᴏᴠᴇʙɢ
 
  *GRUP MENU*
-📍 ᴛᴀɢᴀʟʟ
-📍 ʜɪᴅᴇᴛᴀɢ
-📍 ᴅᴇᴍᴏᴛᴇ
-📍 ᴘʀᴏᴍᴏᴛᴇ
-📍 ᴀᴅᴅ
-📍 ᴋɪᴄᴋ
-📍 ɪɴᴠɪᴛᴇ
-📍 ꜱᴇɴᴅʟɪɴᴋɢᴄ
-📍 ʀᴇꜱᴇᴛʟɪɴᴋɢᴄ
-📍 ʟɪɴᴋɢʀᴏᴜᴘ
-📍 ᴛᴏᴛᴀɢ
-📍 ᴀɴᴛɪʟɪɴᴋ
-📍 ᴀɴᴛɪʙᴏᴛ
-📍 ꜱᴇᴛᴘᴘɢʀᴏᴜᴘ
-📍 ᴅᴇʟ
-📍 ꜱᴇᴛɴᴀᴍᴇɢᴄ
-📍 ᴅᴇʟᴘᴘɢᴄ
-📍 ᴠᴏᴛᴇ
-📍 ᴅᴇʟᴇᴛᴇᴠᴏᴛᴇ
-📍 ᴜᴘᴠᴏᴛᴇ
-📍 ᴅᴏᴡɴᴠᴏᴛᴇ
-📍 ᴄʜᴇᴄᴋᴠᴏᴛᴇ
-📍 ᴜᴘᴠᴏᴛᴇ
-📍 ᴠᴏᴛᴇ
-📍 ᴀɴᴛɪᴛᴏxɪᴄ
-📍 ᴏᴘᴇɴᴛɪᴍᴇ
-📍 ᴄʟᴏꜱᴇᴛɪᴍᴇ
-📍 ᴡᴇʟᴄᴏᴍᴇ
-📍 timergc
-📍 absen
-📍 mulaiabsen
-📍 cekabsen
-📍 hapusabsen
+⭔ ᴛᴀɢᴀʟʟ
+⭔ ʜɪᴅᴇᴛᴀɢ
+⭔ ᴅᴇᴍᴏᴛᴇ
+⭔ ᴘʀᴏᴍᴏᴛᴇ
+⭔ ᴀᴅᴅ
+⭔ ᴋɪᴄᴋ
+⭔ ɪɴᴠɪᴛᴇ
+⭔ ꜱᴇɴᴅʟɪɴᴋɢᴄ
+⭔ ʀᴇꜱᴇᴛʟɪɴᴋɢᴄ
+⭔ ʟɪɴᴋɢʀᴏᴜᴘ
+⭔ ᴛᴏᴛᴀɢ
+⭔ ᴀɴᴛɪʟɪɴᴋ
+⭔ ᴀɴᴛɪʙᴏᴛ
+⭔ ꜱᴇᴛᴘᴘɢʀᴏᴜᴘ
+⭔ ᴅᴇʟ
+⭔ ꜱᴇᴛɴᴀᴍᴇɢᴄ
+⭔ ᴅᴇʟᴘᴘɢᴄ
+⭔ ᴠᴏᴛᴇ
+⭔ ᴅᴇʟᴇᴛᴇᴠᴏᴛᴇ
+⭔ ᴜᴘᴠᴏᴛᴇ
+⭔ ᴅᴏᴡɴᴠᴏᴛᴇ
+⭔ ᴄʜᴇᴄᴋᴠᴏᴛᴇ
+⭔ ᴜᴘᴠᴏᴛᴇ
+⭔ ᴠᴏᴛᴇ
+⭔ ᴀɴᴛɪᴛᴏxɪᴄ
+⭔ ᴏᴘᴇɴᴛɪᴍᴇ
+⭔ ᴄʟᴏꜱᴇᴛɪᴍᴇ
+⭔ ᴡᴇʟᴄᴏᴍᴇ
+⭔ timergc
+⭔ absen
+⭔ mulaiabsen
+⭔ cekabsen
+⭔ hapusabsen
 
  *PUSH KONTAK MENU*
-📍 ᴘᴜꜱʜᴀᴋᴏɴᴛᴀᴋ2
-📍 ᴘᴜꜱʜᴋᴏɴᴛᴀᴋ
-📍 ᴄᴇᴋɪᴅɢᴄ
-📍 ɢᴇᴛɪᴅɢᴄ
+⭔ ᴘᴜꜱʜᴀᴋᴏɴᴛᴀᴋ2
+⭔ ᴘᴜꜱʜᴋᴏɴᴛᴀᴋ
+⭔ ᴄᴇᴋɪᴅɢᴄ
+⭔ ɢᴇᴛɪᴅɢᴄ
 
  *SOSIAL MENU*
-📍 menfess
-📍 stopconfess
-📍 tolakmenfess
-📍 balasmenfess
-📍 lanjut
-📍 start
-📍 sendprofile
-📍 anonymouschat
-📍 nuliskanan
-📍 nuliskiri
-📍 foliokiri
-📍 foliokanan
+⭔ menfess
+⭔ stopconfess
+⭔ tolakmenfess
+⭔ balasmenfess
+⭔ lanjut
+⭔ start
+⭔ sendprofile
+⭔ anonymouschat
+⭔ nuliskanan
+⭔ nuliskiri
+⭔ foliokiri
+⭔ foliokanan
      
  *PRIMBON MENU*
-📍 ᴀʀᴛɪɴᴀᴍᴀ 
-📍 ᴀʀᴛɪᴍɪᴍᴘɪ 
-📍 ᴋᴇᴄᴏᴄᴏᴋᴀɴᴘᴀꜱᴀɴɢᴀɴ 
-📍 ᴋᴇᴄᴏᴄᴏᴋᴀɴɴᴀᴍᴀ 
-📍 ᴊᴀᴅɪᴀɴᴘᴇʀɴɪᴋᴀʜᴀɴ 
-📍 ʀᴇᴊᴇᴋɪ 
-📍 ꜱɪꜰᴀᴛᴜꜱᴀʜᴀ 
-📍 ᴘᴇᴋᴇʀᴊᴀᴀɴ 
-📍 ᴀʀᴛɪᴛᴀʀᴏᴛ 
-📍 ᴘᴏᴛᴇɴꜱɪᴘᴇɴʏᴀᴋɪᴛ 
-📍 ʀᴀᴍᴀʟᴀɴɴᴀꜱɪʙ 
-📍 ʜᴀʀɪꜱᴀɴɢᴀʀ 
-📍 ʜᴀʀɪʙᴀɪᴋ 
-📍 ꜰᴇɴɢꜱʜᴜɪ 
-📍 ɴᴀɢᴀʜᴀʀɪ
-📍 ʜᴀʀɪɴᴀᴀꜱ 
-📍 ᴡᴇᴛᴏɴ 
-📍 ᴘᴇʀᴜɴᴛᴜɴɢᴀɴ 
-📍 jodoh
-📍 carikawangc
-📍 ᴀʀᴀʜʀᴇᴊᴇᴋɪ 
-📍 namaninja
-📍 cekkhodam
-📍 ꜱɪꜰᴀᴛ 
-📍 ᴋᴇʙᴇʀᴜɴᴛᴜɴɢᴀɴ 
-📍 ᴍᴇᴍᴀɴᴄɪɴɢ 
-📍 ᴍᴀꜱᴀꜱᴜʙᴜʀ 
-📍 ᴢᴏᴅɪᴀᴋ 
-📍 ꜱʜɪᴏ 
+⭔ ᴀʀᴛɪɴᴀᴍᴀ 
+⭔ ᴀʀᴛɪᴍɪᴍᴘɪ 
+⭔ ᴋᴇᴄᴏᴄᴏᴋᴀɴᴘᴀꜱᴀɴɢᴀɴ 
+⭔ ᴋᴇᴄᴏᴄᴏᴋᴀɴɴᴀᴍᴀ 
+⭔ ᴊᴀᴅɪᴀɴᴘᴇʀɴɪᴋᴀʜᴀɴ 
+⭔ ʀᴇᴊᴇᴋɪ 
+⭔ ꜱɪꜰᴀᴛᴜꜱᴀʜᴀ 
+⭔ ᴘᴇᴋᴇʀᴊᴀᴀɴ 
+⭔ ᴀʀᴛɪᴛᴀʀᴏᴛ 
+⭔ ᴘᴏᴛᴇɴꜱɪᴘᴇɴʏᴀᴋɪᴛ 
+⭔ ʀᴀᴍᴀʟᴀɴɴᴀꜱɪʙ 
+⭔ ʜᴀʀɪꜱᴀɴɢᴀʀ 
+⭔ ʜᴀʀɪʙᴀɪᴋ 
+⭔ ꜰᴇɴɢꜱʜᴜɪ 
+⭔ ɴᴀɢᴀʜᴀʀɪ
+⭔ ʜᴀʀɪɴᴀᴀꜱ 
+⭔ ᴡᴇᴛᴏɴ 
+⭔ ᴘᴇʀᴜɴᴛᴜɴɢᴀɴ 
+⭔ jodoh
+⭔ carikawangc
+⭔ ᴀʀᴀʜʀᴇᴊᴇᴋɪ 
+⭔ namaninja
+⭔ cekkhodam
+⭔ ꜱɪꜰᴀᴛ 
+⭔ ᴋᴇʙᴇʀᴜɴᴛᴜɴɢᴀɴ 
+⭔ ᴍᴇᴍᴀɴᴄɪɴɢ 
+⭔ ᴍᴀꜱᴀꜱᴜʙᴜʀ 
+⭔ ᴢᴏᴅɪᴀᴋ 
+⭔ ꜱʜɪᴏ 
 
  *ANIME MENU*
-📍 Kill
-📍 Patt
-📍 Lick
-📍 Yeet
-📍 Bonk
-📍 Wink
-📍 Ponk 
-📍 Nom
-📍 Slap
-📍 Smile
-📍 Wave
-📍 Smug
-📍 Dance
-📍 Glomp
-📍 Highfive
-📍 Handhold
-📍 akira
-📍 akiyama
-📍 ana
-📍 asuna
-📍 ayuzawa
-📍 boruto
-📍 chiho
-📍 chitoge
-📍 cosplaylo
-📍 cosplaysagiri 
-📍 deidara
-📍 doraemon 
-📍 elena
-📍 emilia
-📍 erza
-📍 gremory
-📍 hestia
-📍 hinata
-📍 husbu
-📍 inori
-📍 isuzu
-📍 itachi
-📍 itori
-📍 kaga
-📍 kagura
-📍 kakasih
-📍 kaori
-📍 keneki
-📍 kotori
-📍 kurumi
-📍 lol
-📍 madara 
-📍 megumin
-📍 mikey
-📍 miku
-📍 minato
-📍 naruto
-📍 neko
-📍 neko2
-📍 nekonime
-📍 nezuko
-📍 onepiece
-📍 pokemon
-📍 randomnime
-📍 randomnime2
-📍 rize 
-📍 sagiri
-📍 sakura
-📍 sasuke
-📍 shina
-📍 shinka
-📍 shinomiya
-📍 shizuka
-📍 shota
-📍 tejina
-📍 toukachan
-📍 tsunade
-📍 waifu
-📍 animewall
-📍 yotsuba
-📍 yuki
-📍 yulibocil
-📍 yumeko
-📍 8ball
-📍 tickle
-📍 feed
-📍 Waifu
-📍 Neko
+⭔ Kill
+⭔ Patt
+⭔ Lick
+⭔ Yeet
+⭔ Bonk
+⭔ Wink
+⭔ Ponk 
+⭔ Nom
+⭔ Slap
+⭔ Smile
+⭔ Wave
+⭔ Smug
+⭔ Dance
+⭔ Glomp
+⭔ Highfive
+⭔ Handhold
+⭔ akira
+⭔ akiyama
+⭔ ana
+⭔ asuna
+⭔ ayuzawa
+⭔ boruto
+⭔ chiho
+⭔ chitoge
+⭔ cosplaylo
+⭔ cosplaysagiri 
+⭔ deidara
+⭔ doraemon 
+⭔ elena
+⭔ emilia
+⭔ erza
+⭔ gremory
+⭔ hestia
+⭔ hinata
+⭔ husbu
+⭔ inori
+⭔ isuzu
+⭔ itachi
+⭔ itori
+⭔ kaga
+⭔ kagura
+⭔ kakasih
+⭔ kaori
+⭔ keneki
+⭔ kotori
+⭔ kurumi
+⭔ lol
+⭔ madara 
+⭔ megumin
+⭔ mikey
+⭔ miku
+⭔ minato
+⭔ naruto
+⭔ neko
+⭔ neko2
+⭔ nekonime
+⭔ nezuko
+⭔ onepiece
+⭔ pokemon
+⭔ randomnime
+⭔ randomnime2
+⭔ rize 
+⭔ sagiri
+⭔ sakura
+⭔ sasuke
+⭔ shina
+⭔ shinka
+⭔ shinomiya
+⭔ shizuka
+⭔ shota
+⭔ tejina
+⭔ toukachan
+⭔ tsunade
+⭔ waifu
+⭔ animewall
+⭔ yotsuba
+⭔ yuki
+⭔ yulibocil
+⭔ yumeko
+⭔ 8ball
+⭔ tickle
+⭔ feed
+⭔ Waifu
+⭔ Neko
 
 *STICKER ANIME MENU*
-📍 stickhandhold 
-📍 stickshinobu 
-📍 stickcuddle 
-📍 stickhighfive 
-📍 stickdance 
-📍 stickcringe 
-📍 stickhappy 
-📍 stickglomp 
-📍 sticksmug 
-📍 stickblush 
-📍 stickawoo 
-📍 stickwave 
-📍 sticksmile 
-📍 stickslap 
-📍 stickpoke 
-📍 stickwink 
-📍 stickbonk 
-📍 stickbully 
-📍 stickyeet 
-📍 stickbike 
-📍 stickkiss 
-📍 sticklick 
-📍 stickpat 
-📍 stickhug 
-📍 stickkill 
-📍 stickcry 
-📍 stickspank 
-📍 sticktickle 
+⭔ stickhandhold 
+⭔ stickshinobu 
+⭔ stickcuddle 
+⭔ stickhighfive 
+⭔ stickdance 
+⭔ stickcringe 
+⭔ stickhappy 
+⭔ stickglomp 
+⭔ sticksmug 
+⭔ stickblush 
+⭔ stickawoo 
+⭔ stickwave 
+⭔ sticksmile 
+⭔ stickslap 
+⭔ stickpoke 
+⭔ stickwink 
+⭔ stickbonk 
+⭔ stickbully 
+⭔ stickyeet 
+⭔ stickbike 
+⭔ stickkiss 
+⭔ sticklick 
+⭔ stickpat 
+⭔ stickhug 
+⭔ stickkill 
+⭔ stickcry 
+⭔ stickspank 
+⭔ sticktickle 
   
  *PANEL MENU*
-📍 ʀᴀᴍʟɪꜱᴛ
-📍 ʙᴀᴄᴋᴜᴘ
-📍 ᴛᴜᴛᴏʀɪᴀʟ
-📍 ꜱᴛᴀʀᴛꜱʀᴠ 
-📍 ᴜɴꜱᴜꜱᴘᴇɴꜱ
-📍 ᴡᴇʙᴘᴀɴᴇʟ
-📍 ꜱᴜꜱᴘᴇɴᴅ
-📍 ꜱᴇɴᴅᴘᴀɴᴇʟ
-📍 ᴀᴅᴅꜱʀᴠ
-📍 ʟɪꜱᴛᴀᴅᴍɪɴ
-📍 ᴀᴅᴍɪɴ
-📍 ᴀᴅᴅᴜꜱᴇʀ
-📍 ᴅᴇʟᴜꜱʀ
-📍 ʟɪꜱᴛᴜꜱʀ
-📍 ʟɪꜱᴛꜱʀᴠ
-📍 ᴜᴘᴅᴀᴛᴇꜱʀᴠ
-📍 ᴅᴇᴛᴜꜱʀ
-📍 ʀᴇɪɴꜱᴛᴀʟʟ
-📍 ᴘᴀɴᴇʟ
+⭔ ʀᴀᴍʟɪꜱᴛ
+⭔ ʙᴀᴄᴋᴜᴘ
+⭔ ᴛᴜᴛᴏʀɪᴀʟ
+⭔ ꜱᴛᴀʀᴛꜱʀᴠ 
+⭔ ᴜɴꜱᴜꜱᴘᴇɴꜱ
+⭔ ᴡᴇʙᴘᴀɴᴇʟ
+⭔ ꜱᴜꜱᴘᴇɴᴅ
+⭔ ꜱᴇɴᴅᴘᴀɴᴇʟ
+⭔ ᴀᴅᴅꜱʀᴠ
+⭔ ʟɪꜱᴛᴀᴅᴍɪɴ
+⭔ ᴀᴅᴍɪɴ
+⭔ ᴀᴅᴅᴜꜱᴇʀ
+⭔ ᴅᴇʟᴜꜱʀ
+⭔ ʟɪꜱᴛᴜꜱʀ
+⭔ ʟɪꜱᴛꜱʀᴠ
+⭔ ᴜᴘᴅᴀᴛᴇꜱʀᴠ
+⭔ ᴅᴇᴛᴜꜱʀ
+⭔ ʀᴇɪɴꜱᴛᴀʟʟ
+⭔ ᴘᴀɴᴇʟ
 
  *DOMAIN MENU*
-📍 D1
-📍 D2
-📍 D3
-📍 D4
+⭔ D1
+⭔ D2
+⭔ D3
+⭔ D4
 
  *LINODE MENU*
-📍 ʀᴇꜱᴇᴛᴘᴀꜱꜱᴡᴏʀᴅ
-📍 ᴅᴇʟᴇᴛᴇʟɪɴᴏᴅᴇ
-📍 ʟɪꜱᴛʟɪɴᴏᴅᴇ
-📍 ᴏɴʟɪɴᴏᴅᴇ
-📍 ᴏꜰꜰʟɪɴᴏᴅᴇ
-📍 ʀᴇʙᴏᴏᴛʟɪɴᴏᴅᴇ
-📍 ʀᴇʙᴜɪʟᴅʟɪɴᴏᴅᴇ
-📍 ꜱɪꜱᴀʟɪɴᴏᴅᴇ
-📍 ꜱᴀʟᴅᴏʟɪɴᴏᴅᴇ
-📍 ᴄᴇᴋᴠᴘꜱʟɪɴᴏᴅᴇ
-📍 ʟɪɴᴏᴅᴇ2ɢʙ
-📍 ʟɪɴᴏᴅᴇ4ɢʙ
-📍 ʟɪɴᴏᴅᴇ8ɢʙ
-📍 ʟɪɴᴏᴅᴇ16ɢʙ
+⭔ ʀᴇꜱᴇᴛᴘᴀꜱꜱᴡᴏʀᴅ
+⭔ ᴅᴇʟᴇᴛᴇʟɪɴᴏᴅᴇ
+⭔ ʟɪꜱᴛʟɪɴᴏᴅᴇ
+⭔ ᴏɴʟɪɴᴏᴅᴇ
+⭔ ᴏꜰꜰʟɪɴᴏᴅᴇ
+⭔ ʀᴇʙᴏᴏᴛʟɪɴᴏᴅᴇ
+⭔ ʀᴇʙᴜɪʟᴅʟɪɴᴏᴅᴇ
+⭔ ꜱɪꜱᴀʟɪɴᴏᴅᴇ
+⭔ ꜱᴀʟᴅᴏʟɪɴᴏᴅᴇ
+⭔ ᴄᴇᴋᴠᴘꜱʟɪɴᴏᴅᴇ
+⭔ ʟɪɴᴏᴅᴇ2ɢʙ
+⭔ ʟɪɴᴏᴅᴇ4ɢʙ
+⭔ ʟɪɴᴏᴅᴇ8ɢʙ
+⭔ ʟɪɴᴏᴅᴇ16ɢʙ
 
 *STORE MENU*
-📍 ᴘᴇᴍʙᴀʏᴀʀᴀɴ
-📍 ʟɪꜱᴛᴘʀᴏᴅᴜᴋ
-📍 ᴠᴘꜱ
-📍 ᴘᴀɴᴇʟ
-📍 ʙᴀᴛᴀʟ
-📍 ᴘʀᴏꜱᴇꜱ
-📍 ᴅᴏɴᴇ
-📍 ꜰᴏʀᴍᴀᴛɴᴇᴇᴅ
-📍 ꜰᴏʀᴍᴀᴛᴊᴘ
-📍 ꜰᴇᴇʀᴇᴋʙᴇʀ
-📍 ꜰᴇᴇɢᴄ
-📍 ᴅᴏɴᴀꜱɪ
-📍 ᴛᴇꜱᴛɪ1
-📍 ᴛᴇꜱᴛɪ2
-📍 ᴛᴇꜱᴛɪ3 
-📍 ᴛᴇꜱᴛɪ4
-📍 ᴛᴇꜱᴛɪ5
-📍 ᴛᴇꜱᴛɪ6
+⭔ ᴘᴇᴍʙᴀʏᴀʀᴀɴ
+⭔ ʟɪꜱᴛᴘʀᴏᴅᴜᴋ
+⭔ ᴠᴘꜱ
+⭔ ᴘᴀɴᴇʟ
+⭔ ʙᴀᴛᴀʟ
+⭔ ᴘʀᴏꜱᴇꜱ
+⭔ ᴅᴏɴᴇ
+⭔ ꜰᴏʀᴍᴀᴛɴᴇᴇᴅ
+⭔ ꜰᴏʀᴍᴀᴛᴊᴘ
+⭔ ꜰᴇᴇʀᴇᴋʙᴇʀ
+⭔ ꜰᴇᴇɢᴄ
+⭔ ᴅᴏɴᴀꜱɪ
+⭔ ᴛᴇꜱᴛɪ1
+⭔ ᴛᴇꜱᴛɪ2
+⭔ ᴛᴇꜱᴛɪ3 
+⭔ ᴛᴇꜱᴛɪ4
+⭔ ᴛᴇꜱᴛɪ5
+⭔ ᴛᴇꜱᴛɪ6
 
  *VOICE MENU*
-📍 bass
-📍 blown
-📍 deep
-📍 earrape
-📍 fast
-📍 fat
-📍 nightcore
-📍 reverse 
-📍 robot
-📍 slow
-📍 smooth
-📍 squirrel
+⭔ bass
+⭔ blown
+⭔ deep
+⭔ earrape
+⭔ fast
+⭔ fat
+⭔ nightcore
+⭔ reverse 
+⭔ robot
+⭔ slow
+⭔ smooth
+⭔ squirrel
 
  *GAME MENU*
-📍 ᴛᴛᴄ
-📍 ᴅᴇʟᴛᴄ
-📍 ꜱᴜɪᴛᴘᴠᴘ
-📍 ᴛᴇʙᴀᴋ ᴋᴀᴛᴀ
-📍 ᴛᴇʙᴀᴋ ɢᴀᴍʙᴀʀ
-📍 ᴛᴇʙᴀᴋ ʟɪʀɪᴋ
-📍 ᴛᴇʙᴀᴋ ᴋᴀʟɪᴍᴀᴛ
-📍 ᴛᴇʙᴀᴋ ʟᴀɢᴜ
-📍 ᴛᴇʙᴀᴋ ʟᴏɴᴛᴏɴɢ
-📍 ꜰᴀᴍɪʟʏ100
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ɴᴏᴏʙ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ᴇᴀꜱʏ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ᴍᴇᴅɪᴜᴍ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ʜᴀʀᴅ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ᴇxᴛʀᴇᴍᴇ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ɪᴍᴘᴏꜱꜱɪʙʟᴇ
-📍 ᴋᴜɪꜱᴍᴀᴛʜ ɪᴍᴘᴏꜱꜱɪʙʟᴇ2
-📍 tebak Bendera
-📍 tebak Bendera2
-📍 tebak Kabupaten
-📍 tebak Kimia
-📍 tebak Asahotak
-📍 tebak Siapakahaku
-📍 tebak Susunkata
-📍 tebak Tekateki
+⭔ ᴛᴛᴄ
+⭔ ᴅᴇʟᴛᴄ
+⭔ ꜱᴜɪᴛᴘᴠᴘ
+⭔ ᴛᴇʙᴀᴋ ᴋᴀᴛᴀ
+⭔ ᴛᴇʙᴀᴋ ɢᴀᴍʙᴀʀ
+⭔ ᴛᴇʙᴀᴋ ʟɪʀɪᴋ
+⭔ ᴛᴇʙᴀᴋ ᴋᴀʟɪᴍᴀᴛ
+⭔ ᴛᴇʙᴀᴋ ʟᴀɢᴜ
+⭔ ᴛᴇʙᴀᴋ ʟᴏɴᴛᴏɴɢ
+⭔ ꜰᴀᴍɪʟʏ100
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ɴᴏᴏʙ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ᴇᴀꜱʏ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ᴍᴇᴅɪᴜᴍ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ʜᴀʀᴅ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ᴇxᴛʀᴇᴍᴇ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ɪᴍᴘᴏꜱꜱɪʙʟᴇ
+⭔ ᴋᴜɪꜱᴍᴀᴛʜ ɪᴍᴘᴏꜱꜱɪʙʟᴇ2
+⭔ tebak Bendera
+⭔ tebak Bendera2
+⭔ tebak Kabupaten
+⭔ tebak Kimia
+⭔ tebak Asahotak
+⭔ tebak Siapakahaku
+⭔ tebak Susunkata
+⭔ tebak Tekateki
 
  *TIKTOK VID MENU*
-📍 ᴛɪᴋᴛᴏᴋɢɪʀʟ
-📍 ᴛɪᴋᴛᴏᴋɴᴜᴋᴛʜʏ
-📍 ᴛɪᴋᴛᴏᴋᴋᴀʏᴇꜱ
-📍 ᴛɪᴋᴛᴏᴋᴘᴀɴʀɪᴋᴀ
-📍 ᴛɪᴋᴛᴏᴋɴᴏᴛɴᴏᴛ
-📍 ᴛɪᴋᴛᴏᴋɢʜᴇᴀ
-📍 ᴛɪᴋᴛᴏᴋꜱᴀɴᴛᴜʏ
-📍 ᴛɪᴋᴛᴏᴋʙᴏᴄɪʟ
+⭔ ᴛɪᴋᴛᴏᴋɢɪʀʟ
+⭔ ᴛɪᴋᴛᴏᴋɴᴜᴋᴛʜʏ
+⭔ ᴛɪᴋᴛᴏᴋᴋᴀʏᴇꜱ
+⭔ ᴛɪᴋᴛᴏᴋᴘᴀɴʀɪᴋᴀ
+⭔ ᴛɪᴋᴛᴏᴋɴᴏᴛɴᴏᴛ
+⭔ ᴛɪᴋᴛᴏᴋɢʜᴇᴀ
+⭔ ᴛɪᴋᴛᴏᴋꜱᴀɴᴛᴜʏ
+⭔ ᴛɪᴋᴛᴏᴋʙᴏᴄɪʟ
 
  *STICKER MENU*
-📍 woof
-📍 8ball
-📍 goose
-📍 gecg
-📍 feed
-📍 avatar
-📍 fox_gir
-📍 lizard
-📍 spank
-📍 meow
-📍 tickle
+⭔ woof
+⭔ 8ball
+⭔ goose
+⭔ gecg
+⭔ feed
+⭔ avatar
+⭔ fox_gir
+⭔ lizard
+⭔ spank
+⭔ meow
+⭔ tickle
      
  *SEARCH MENU*
-📍 ɢᴏᴏɢʟᴇ
-📍 ʟɪʀɪᴋ
-📍 ᴛᴛꜱᴇᴀᴄʀʜ
-📍 ʀᴇᴀᴅᴍᴏʀᴇ
-📍 ᴀᴘᴋꜱᴇᴀʀᴄʜ
-📍 ꜱᴛɪᴄᴋᴇʀꜱᴇᴀʀᴄʜ
-📍 ᴊᴀʀᴀᴋ
-📍 ssweb
-📍 sswebdesktop
-📍 sswebtablet
-📍 sswebphone
-📍 ꜱᴄ
-📍 ᴏᴡɴᴇʀ
-📍 ʀᴜʟᴇꜱ
-📍 ᴀɪ
-📍 tiktokstalk
-📍 gamepop
-📍 kuliner
-📍 otakudesdetails
-📍 otakudessearch
-📍 siapakah
-📍 kcimg
-📍 modapk
-📍 quotes
-📍 islamnews
-📍 quotesanime
-📍 quotesbacot
-📍 cuaca
-📍 fliptext
+⭔ ɢᴏᴏɢʟᴇ
+⭔ ʟɪʀɪᴋ
+⭔ ᴛᴛꜱᴇᴀᴄʀʜ
+⭔ ʀᴇᴀᴅᴍᴏʀᴇ
+⭔ ᴀᴘᴋꜱᴇᴀʀᴄʜ
+⭔ ꜱᴛɪᴄᴋᴇʀꜱᴇᴀʀᴄʜ
+⭔ ᴊᴀʀᴀᴋ
+⭔ ssweb
+⭔ sswebdesktop
+⭔ sswebtablet
+⭔ sswebphone
+⭔ ꜱᴄ
+⭔ ᴏᴡɴᴇʀ
+⭔ ʀᴜʟᴇꜱ
+⭔ ᴀɪ
+⭔ tiktokstalk
+⭔ gamepop
+⭔ kuliner
+⭔ otakudesdetails
+⭔ otakudessearch
+⭔ siapakah
+⭔ kcimg
+⭔ modapk
+⭔ quotes
+⭔ islamnews
+⭔ quotesanime
+⭔ quotesbacot
+⭔ cuaca
+⭔ fliptext
 
  *ISLAM MENU*
-📍 kisahnabi
-📍 quotesislami
-📍 niatsholat
-📍 bacaansholat
-📍 doaharian
-📍 ayatkursi
+⭔ kisahnabi
+⭔ quotesislami
+⭔ niatsholat
+⭔ bacaansholat
+⭔ doaharian
+⭔ ayatkursi
 
  *ADD CMD MENU*
-📍 ꜱᴇᴛᴄᴍᴅ
-📍 ᴅᴇʟᴄᴍᴅ
-📍 ʟɪꜱᴛᴄᴍᴅ
-📍 ᴀᴅᴅᴘᴅꜰ
-📍 ᴅᴇʟᴘᴅꜰ
-📍 ʟɪꜱᴛᴘᴅꜰ
-📍 ʏᴏᴘᴅꜰ
-📍 ꜱᴇɴᴅᴘᴅꜰ
-📍 ᴀᴅᴅᴢɪᴘ
-📍 ᴅᴇʟᴢɪᴘ
-📍 ʟɪꜱᴛᴢɪᴘ
-📍 ʏᴏᴢɪᴘ
-📍 ꜱᴇɴᴅᴢɪᴘ
-📍 ᴀᴅᴅᴀᴘᴋ
-📍 ᴅᴇʟᴀᴘᴋ
-📍 ʟɪꜱᴛᴀᴘᴋ
-📍 ʏᴏᴀᴘᴋ
-📍 ꜱᴇɴᴅᴀᴘᴋ
-📍 ᴀᴅᴅᴠɴ
-📍 ᴅᴇʟᴠɴ
-📍 ʟɪꜱᴛᴠɴ
-📍 ᴀᴅᴅᴍꜱɢ
-📍 ꜱᴇɴᴅʟɪꜱᴛ
-📍 ʟɪꜱᴛᴍꜱɢ
-📍 ᴅᴇʟᴍꜱɢ
-📍 ɢᴇᴛᴍꜱɢ
+⭔ ꜱᴇᴛᴄᴍᴅ
+⭔ ᴅᴇʟᴄᴍᴅ
+⭔ ʟɪꜱᴛᴄᴍᴅ
+⭔ ᴀᴅᴅᴘᴅꜰ
+⭔ ᴅᴇʟᴘᴅꜰ
+⭔ ʟɪꜱᴛᴘᴅꜰ
+⭔ ʏᴏᴘᴅꜰ
+⭔ ꜱᴇɴᴅᴘᴅꜰ
+⭔ ᴀᴅᴅᴢɪᴘ
+⭔ ᴅᴇʟᴢɪᴘ
+⭔ ʟɪꜱᴛᴢɪᴘ
+⭔ ʏᴏᴢɪᴘ
+⭔ ꜱᴇɴᴅᴢɪᴘ
+⭔ ᴀᴅᴅᴀᴘᴋ
+⭔ ᴅᴇʟᴀᴘᴋ
+⭔ ʟɪꜱᴛᴀᴘᴋ
+⭔ ʏᴏᴀᴘᴋ
+⭔ ꜱᴇɴᴅᴀᴘᴋ
+⭔ ᴀᴅᴅᴠɴ
+⭔ ᴅᴇʟᴠɴ
+⭔ ʟɪꜱᴛᴠɴ
+⭔ ᴀᴅᴅᴍꜱɢ
+⭔ ꜱᴇɴᴅʟɪꜱᴛ
+⭔ ʟɪꜱᴛᴍꜱɢ
+⭔ ᴅᴇʟᴍꜱɢ
+⭔ ɢᴇᴛᴍꜱɢ
 
 *BOKEP MENU*
-📍 ᴘᴀᴘᴛᴛ 1 - 5
-📍 Neko
-📍 waifu
-📍 hentaivid2
-📍 bokep
-📍 hentaivid
-📍 hentaivid2
-📍 pornhubvid
+⭔ ᴘᴀᴘᴛᴛ 1 - 5
+⭔ Neko
+⭔ waifu
+⭔ hentaivid2
+⭔ bokep
+⭔ hentaivid
+⭔ hentaivid2
+⭔ pornhubvid
 
  *NAKAL MENU*
-📍 tolol
-📍 gaguna
-📍 jomok
-📍 idiot
-📍 gay
-📍 lesbi
-📍 anjink
-📍 babi
-📍 kucing
-📍 beban
-📍 bebankeluarga
-📍 gadakeluarga
-📍 miskin
-📍 sampah
-📍 wibu
-📍 cantik
-📍 ganteng
-📍 tampan
-📍 cute
-📍 kind
-📍 Islam
-📍 kristen
-📍 hindu
-📍 katolik
-📍 gandu
-📍 madarchod
-📍 kala
-📍 gora
-📍 chutiya
-📍 nibba
-📍 nibbi
-📍 bhosdiwala
-📍 chutmarika
-📍 bokachoda
-📍 suarerbaccha
-📍 bolochoda
-📍 muthal
-📍 muthbaaz
-📍 randibaaz
-📍 topibaaz
-📍 cunt
-📍 nerd
-📍 behenchod
-📍 behnchoda
-📍 bhosdika
-📍 nerd
-📍 mc
-📍 bsdk
-📍 bhosdk
-📍 nigger
-📍 loda
-📍 laund
-📍 nigga
-📍 noobra
-📍 tharki
-📍 nibba
-📍 nibbi
-📍 mumu
-📍 rascal
-📍 scumbag
-📍 nuts
-📍 comrade
-📍 fagot
-📍 scoundrel
-📍 ditch
-📍 dope
-📍 gucci
-📍 lit
-📍 dumbass
-📍 sexy
-📍 crackhead
-📍 mf
-📍 motherfucker
-📍 dogla
-📍 bewda
-📍 boka
-📍 khanki
-📍 bal 
-📍 sucker
-📍 fuckboy
-📍 playboy
-📍 fuckgirl
-📍 playgirl
-📍 hot
+⭔ tolol
+⭔ gaguna
+⭔ jomok
+⭔ idiot
+⭔ gay
+⭔ lesbi
+⭔ anjink
+⭔ babi
+⭔ kucing
+⭔ beban
+⭔ bebankeluarga
+⭔ gadakeluarga
+⭔ miskin
+⭔ sampah
+⭔ wibu
+⭔ cantik
+⭔ ganteng
+⭔ tampan
+⭔ cute
+⭔ kind
+⭔ Islam
+⭔ kristen
+⭔ hindu
+⭔ katolik
+⭔ gandu
+⭔ madarchod
+⭔ kala
+⭔ gora
+⭔ chutiya
+⭔ nibba
+⭔ nibbi
+⭔ bhosdiwala
+⭔ chutmarika
+⭔ bokachoda
+⭔ suarerbaccha
+⭔ bolochoda
+⭔ muthal
+⭔ muthbaaz
+⭔ randibaaz
+⭔ topibaaz
+⭔ cunt
+⭔ nerd
+⭔ behenchod
+⭔ behnchoda
+⭔ bhosdika
+⭔ nerd
+⭔ mc
+⭔ bsdk
+⭔ bhosdk
+⭔ nigger
+⭔ loda
+⭔ laund
+⭔ nigga
+⭔ noobra
+⭔ tharki
+⭔ nibba
+⭔ nibbi
+⭔ mumu
+⭔ rascal
+⭔ scumbag
+⭔ nuts
+⭔ comrade
+⭔ fagot
+⭔ scoundrel
+⭔ ditch
+⭔ dope
+⭔ gucci
+⭔ lit
+⭔ dumbass
+⭔ sexy
+⭔ crackhead
+⭔ mf
+⭔ motherfucker
+⭔ dogla
+⭔ bewda
+⭔ boka
+⭔ khanki
+⭔ bal 
+⭔ sucker
+⭔ fuckboy
+⭔ playboy
+⭔ fuckgirl
+⭔ playgirl
+⭔ hot
 
  *FOTO MENU*
-📍 aesthetic
-📍 coffee
-📍 wikimedia
-📍 wallpaper
-📍 art
-📍 bts
-📍 dogwoof
-📍 catmeow
-📍 lizardpic
-📍 goosebird
-📍 8ballpool
-📍 cosplay
-📍 hacker
-📍 cyber
-📍 gamewallpaperm
-📍 islamic
-📍 jennie
-📍 jiso
-📍 satanic
-📍 justina
-📍 cartoon
-📍 pentol
-📍 cat
-📍 kpop
-📍 exo
-📍 lisa
-📍 space
-📍 car
-📍 technology
-📍 bike
-📍 shortquote
-📍 antiwork
-📍 hacking
-📍 boneka
-📍 rose
-📍 ryujin
-📍 ulzzangboy
-📍 ulzzanggirl
-📍 wall
-📍 wallphone
-📍 mountain
-📍 goose
-📍 profilepic
-📍 couplepp
-📍 programming
-📍 pubg
-📍 blackpink
-📍 randomboy
-📍 randomgirl
-📍 hijab
-📍 chinese
-📍 indo
-📍 japanese
-📍 korean
-📍 malay
-📍 thai
-📍 vietnamese
-📍 suga
-📍 wuyifan
-📍 parkchanyeol
-📍 ohsehun
-📍 luhan
-📍 kimtaehyung
-📍 kimsoek
-📍 kimnanjoon
-📍 kimjunmyeon
-📍 kimjong
-📍 kimjondae
-📍 jungkook
-📍 jimin
-📍 jhope
-📍 huangzitao
-📍 dohkyungsoo
-📍 baekhyung
+⭔ aesthetic
+⭔ coffee
+⭔ wikimedia
+⭔ wallpaper
+⭔ art
+⭔ bts
+⭔ dogwoof
+⭔ catmeow
+⭔ lizardpic
+⭔ goosebird
+⭔ 8ballpool
+⭔ cosplay
+⭔ hacker
+⭔ cyber
+⭔ gamewallpaperm
+⭔ islamic
+⭔ jennie
+⭔ jiso
+⭔ satanic
+⭔ justina
+⭔ cartoon
+⭔ pentol
+⭔ cat
+⭔ kpop
+⭔ exo
+⭔ lisa
+⭔ space
+⭔ car
+⭔ technology
+⭔ bike
+⭔ shortquote
+⭔ antiwork
+⭔ hacking
+⭔ boneka
+⭔ rose
+⭔ ryujin
+⭔ ulzzangboy
+⭔ ulzzanggirl
+⭔ wall
+⭔ wallphone
+⭔ mountain
+⭔ goose
+⭔ profilepic
+⭔ couplepp
+⭔ programming
+⭔ pubg
+⭔ blackpink
+⭔ randomboy
+⭔ randomgirl
+⭔ hijab
+⭔ chinese
+⭔ indo
+⭔ japanese
+⭔ korean
+⭔ malay
+⭔ thai
+⭔ vietnamese
+⭔ suga
+⭔ wuyifan
+⭔ parkchanyeol
+⭔ ohsehun
+⭔ luhan
+⭔ kimtaehyung
+⭔ kimsoek
+⭔ kimnanjoon
+⭔ kimjunmyeon
+⭔ kimjong
+⭔ kimjondae
+⭔ jungkook
+⭔ jimin
+⭔ jhope
+⭔ huangzitao
+⭔ dohkyungsoo
+⭔ baekhyung
 
  *TEXT MAKER MENU*
-📍  blackpink
-📍  rainbow2
-📍  water_pipe
-📍  halloween
-📍  sketch
-📍  sircuit
-📍  discovery
-📍  metallic2
-📍  fiction
-📍  demon
-📍  transformer
-📍  berry
-📍  thunder
-📍  magma
-📍  3dstone
-📍  neon
-📍  glitch
-📍  harry_potter
-📍  embossed
-📍  broken
-📍  papercut
-📍  gradient
-📍  glossy
-📍  watercolor
-📍  multicolor
-📍  neon_devil
-📍  underwater
-📍  bear
-📍  wonderfulg
-📍  christmas
-📍  neon_light
-📍  snow
-📍  cloudsky
-📍  luxury2
-📍  gradient2
-📍  summer
-📍  writing
-📍  engraved
-📍  summery
-📍  3dglue
-📍  metaldark
-📍  neonlight
-📍  oscar
-📍  minion
-📍  holographic
-📍  purple
-📍  glossyb
-📍  deluxe2
-📍  glossyc
-📍  fabric
-📍  neonc
-📍  newyear
-📍  newyear2
-📍  metals
-📍  xmas
-📍  blood
-📍  darkg
-📍  joker
-📍  wicker
-📍  natural
-📍  firework
-📍  skeleton
-📍  balloon
-📍  balloon2
-📍  balloon3
-📍  balloon4
-📍  balloon5
-📍  balloon6
-📍  balloon7
-📍  steel
-📍  gloss
-📍  denim
-📍  decorate
-📍  decorate2
-📍  peridot
-📍  rock
-📍  glass
-📍  glass2
-📍  glass3
-📍  glass4
-📍  captain_as2
-📍  robot
-📍  equalizer
-📍  toxic
-📍  sparkling
-📍  sparkling2
-📍  sparkling3
-📍  decorative
-📍  chocolate
-📍  strawberry
-📍  koifish
-📍  bread
-📍  matrix
-📍  blood2
-📍  neonligth2
-📍  thunder2
-📍  3dbox
-📍  neon2
-📍  roadw
-📍  bokeh
-📍  gneon
-📍  advanced
-📍  dropwater
-📍  wall
-📍  chrismast
-📍  honey
-📍  drug
-📍  marble
-📍  marble2
-📍  ice
-📍  juice
-📍  rusty
-📍  abstra
-📍  biscuit
-📍  wood
-📍  scifi
-📍  metalr
-📍  purpleg
-📍  shiny
-📍  jewelry
-📍  jewelry2
-📍  metalh
-📍  golden
-📍  glitter
-📍  metale
-📍  carbon
-📍  candy
-📍  metalb
-📍  gemb
-📍  3dchrome
-📍  metalb2
-📍  metalg
+⭔  blackpink
+⭔  rainbow2
+⭔  water_pipe
+⭔  halloween
+⭔  sketch
+⭔  sircuit
+⭔  discovery
+⭔  metallic2
+⭔  fiction
+⭔  demon
+⭔  transformer
+⭔  berry
+⭔  thunder
+⭔  magma
+⭔  3dstone
+⭔  neon
+⭔  glitch
+⭔  harry_potter
+⭔  embossed
+⭔  broken
+⭔  papercut
+⭔  gradient
+⭔  glossy
+⭔  watercolor
+⭔  multicolor
+⭔  neon_devil
+⭔  underwater
+⭔  bear
+⭔  wonderfulg
+⭔  christmas
+⭔  neon_light
+⭔  snow
+⭔  cloudsky
+⭔  luxury2
+⭔  gradient2
+⭔  summer
+⭔  writing
+⭔  engraved
+⭔  summery
+⭔  3dglue
+⭔  metaldark
+⭔  neonlight
+⭔  oscar
+⭔  minion
+⭔  holographic
+⭔  purple
+⭔  glossyb
+⭔  deluxe2
+⭔  glossyc
+⭔  fabric
+⭔  neonc
+⭔  newyear
+⭔  newyear2
+⭔  metals
+⭔  xmas
+⭔  blood
+⭔  darkg
+⭔  joker
+⭔  wicker
+⭔  natural
+⭔  firework
+⭔  skeleton
+⭔  balloon
+⭔  balloon2
+⭔  balloon3
+⭔  balloon4
+⭔  balloon5
+⭔  balloon6
+⭔  balloon7
+⭔  steel
+⭔  gloss
+⭔  denim
+⭔  decorate
+⭔  decorate2
+⭔  peridot
+⭔  rock
+⭔  glass
+⭔  glass2
+⭔  glass3
+⭔  glass4
+⭔  captain_as2
+⭔  robot
+⭔  equalizer
+⭔  toxic
+⭔  sparkling
+⭔  sparkling2
+⭔  sparkling3
+⭔  decorative
+⭔  chocolate
+⭔  strawberry
+⭔  koifish
+⭔  bread
+⭔  matrix
+⭔  blood2
+⭔  neonligth2
+⭔  thunder2
+⭔  3dbox
+⭔  neon2
+⭔  roadw
+⭔  bokeh
+⭔  gneon
+⭔  advanced
+⭔  dropwater
+⭔  wall
+⭔  chrismast
+⭔  honey
+⭔  drug
+⭔  marble
+⭔  marble2
+⭔  ice
+⭔  juice
+⭔  rusty
+⭔  abstra
+⭔  biscuit
+⭔  wood
+⭔  scifi
+⭔  metalr
+⭔  purpleg
+⭔  shiny
+⭔  jewelry
+⭔  jewelry2
+⭔  metalh
+⭔  golden
+⭔  glitter
+⭔  metale
+⭔  carbon
+⭔  candy
+⭔  metalb
+⭔  gemb
+⭔  3dchrome
+⭔  metalb2
+⭔  metalg
 
  *SOUND MENU*
-📍  sound1
-📍  sound2
-📍  sound3
-📍  sound4
-📍  sound5
-📍  sound6
-📍  sound7
-📍  sound8
-📍  sound9
-📍  sound10
-📍  sound11
-📍  sound12
-📍  sound13
-📍  sound14
-📍  sound15
-📍  sound16
-📍  sound17
-📍  sound18
-📍  sound18
-📍  sound20
-📍  sound21
-📍  sound22
-📍  sound23
-📍  sound24
-📍  sound25
-📍  sound26
-📍  sound27
-📍  sound28
-📍  sound29
-📍  sound30
-📍  sound31
-📍  sound32
-📍  sound33
-📍  sound34
-📍  sound35
-📍  sound36
-📍  sound37
-📍  sound38
-📍  sound39
-📍  sound40
-📍  sound41
-📍  sound42
-📍  sound43
-📍  sound44
-📍  sound45
-📍  sound46
-📍  sound47
-📍  sound48
-📍  sound49
-📍  sound50
-📍  sound51
-📍  sound52
-📍  sound53   
-📍  sound54
-📍  sound55
-📍  sound56
-📍  sound57
-📍  sound58
-📍  sound59
-📍  sound60
-📍  sound61
-📍  sound62
-📍  sound63
-📍  sound64
-📍  sound65
-📍  sound66
-📍  sound67
-📍  sound68
-📍  sound69
-📍  sound70
-📍  sound71
-📍  sound72
-📍  sound73
-📍  sound74
-📍  sound75
-📍  sound76
-📍  sound77
-📍  sound78
-📍  sound79
-📍  sound80
-📍  sound81
-📍  sound82
-📍  sound83
-📍  sound84
-📍  sound85
-📍  sound86
-📍  sound87
-📍  sound88
-📍  sound89
-📍  sound90
-📍  sound91
-📍  sound92
-📍  sound93
-📍  sound94
-📍  sound95
-📍  sound96
-📍  sound97
-📍  sound98
-📍  sound99
-📍  sound100
-📍  sound101
-📍  sound102
-📍  sound103
-📍  sound104
-📍  sound105
-📍  sound106
-📍  sound107
-📍  sound108
-📍  sound109
-📍  sound110
-📍  sound111
-📍  sound112
-📍  sound113
-📍  sound114
-📍  sound115
-📍  sound116
-📍  sound117
-📍  sound118
-📍  sound119
-📍  sound120
-📍  sound121
-📍  sound122
-📍  sound123
-📍  sound124
-📍  sound125
-📍  sound126
-📍  sound127
-📍  sound128
-📍  sound129
-📍  sound130
-📍  sound131
-📍  sound132
-📍  sound133
-📍  sound134
-📍  sound135
-📍  sound136
-📍  sound137
-📍  sound138
-📍  sound139
-📍  sound140
-📍  sound141
-📍  sound142
-📍  sound143
-📍  sound144
-📍  sound145
-📍  sound146
-📍  sound147
-📍  sound148
-📍  sound149
-📍  sound150
-📍  sound151
-📍  sound152
-📍  sound153
-📍  sound154
-📍  sound155
-📍  sound156
-📍  sound157
-📍  sound158
-📍  sound159
-📍  sound160
-📍  sound161
+⭔  sound1
+⭔  sound2
+⭔  sound3
+⭔  sound4
+⭔  sound5
+⭔  sound6
+⭔  sound7
+⭔  sound8
+⭔  sound9
+⭔  sound10
+⭔  sound11
+⭔  sound12
+⭔  sound13
+⭔  sound14
+⭔  sound15
+⭔  sound16
+⭔  sound17
+⭔  sound18
+⭔  sound18
+⭔  sound20
+⭔  sound21
+⭔  sound22
+⭔  sound23
+⭔  sound24
+⭔  sound25
+⭔  sound26
+⭔  sound27
+⭔  sound28
+⭔  sound29
+⭔  sound30
+⭔  sound31
+⭔  sound32
+⭔  sound33
+⭔  sound34
+⭔  sound35
+⭔  sound36
+⭔  sound37
+⭔  sound38
+⭔  sound39
+⭔  sound40
+⭔  sound41
+⭔  sound42
+⭔  sound43
+⭔  sound44
+⭔  sound45
+⭔  sound46
+⭔  sound47
+⭔  sound48
+⭔  sound49
+⭔  sound50
+⭔  sound51
+⭔  sound52
+⭔  sound53   
+⭔  sound54
+⭔  sound55
+⭔  sound56
+⭔  sound57
+⭔  sound58
+⭔  sound59
+⭔  sound60
+⭔  sound61
+⭔  sound62
+⭔  sound63
+⭔  sound64
+⭔  sound65
+⭔  sound66
+⭔  sound67
+⭔  sound68
+⭔  sound69
+⭔  sound70
+⭔  sound71
+⭔  sound72
+⭔  sound73
+⭔  sound74
+⭔  sound75
+⭔  sound76
+⭔  sound77
+⭔  sound78
+⭔  sound79
+⭔  sound80
+⭔  sound81
+⭔  sound82
+⭔  sound83
+⭔  sound84
+⭔  sound85
+⭔  sound86
+⭔  sound87
+⭔  sound88
+⭔  sound89
+⭔  sound90
+⭔  sound91
+⭔  sound92
+⭔  sound93
+⭔  sound94
+⭔  sound95
+⭔  sound96
+⭔  sound97
+⭔  sound98
+⭔  sound99
+⭔  sound100
+⭔  sound101
+⭔  sound102
+⭔  sound103
+⭔  sound104
+⭔  sound105
+⭔  sound106
+⭔  sound107
+⭔  sound108
+⭔  sound109
+⭔  sound110
+⭔  sound111
+⭔  sound112
+⭔  sound113
+⭔  sound114
+⭔  sound115
+⭔  sound116
+⭔  sound117
+⭔  sound118
+⭔  sound119
+⭔  sound120
+⭔  sound121
+⭔  sound122
+⭔  sound123
+⭔  sound124
+⭔  sound125
+⭔  sound126
+⭔  sound127
+⭔  sound128
+⭔  sound129
+⭔  sound130
+⭔  sound131
+⭔  sound132
+⭔  sound133
+⭔  sound134
+⭔  sound135
+⭔  sound136
+⭔  sound137
+⭔  sound138
+⭔  sound139
+⭔  sound140
+⭔  sound141
+⭔  sound142
+⭔  sound143
+⭔  sound144
+⭔  sound145
+⭔  sound146
+⭔  sound147
+⭔  sound148
+⭔  sound149
+⭔  sound150
+⭔  sound151
+⭔  sound152
+⭔  sound153
+⭔  sound154
+⭔  sound155
+⭔  sound156
+⭔  sound157
+⭔  sound158
+⭔  sound159
+⭔  sound160
+⭔  sound161
 
  *SAD MENU*
-📍 sad1
-📍 sad2
-📍 sad3
-📍 sad4
-📍 sad5
-📍 sad6
-📍 sad7
-📍 sad8
-📍 sad9
-📍 sad10
-📍 sad11
-📍 sad12
-📍 sad13
-📍 sad14
-📍 sad15
-📍 sad16
-📍 sad17
-📍 sad18
-📍 sad19
-📍 sad20
-📍 sad21
-📍 sad22
-📍 sad23
-📍 sad24
-📍 sad25
-📍 sad26
-📍 sad27
-📍 sad28
-📍 sad29
-📍 sad30
-📍 sad31
-📍 sad32
-📍 sad33
-📍 sad34
-📍 sad35
+⭔ sad1
+⭔ sad2
+⭔ sad3
+⭔ sad4
+⭔ sad5
+⭔ sad6
+⭔ sad7
+⭔ sad8
+⭔ sad9
+⭔ sad10
+⭔ sad11
+⭔ sad12
+⭔ sad13
+⭔ sad14
+⭔ sad15
+⭔ sad16
+⭔ sad17
+⭔ sad18
+⭔ sad19
+⭔ sad20
+⭔ sad21
+⭔ sad22
+⭔ sad23
+⭔ sad24
+⭔ sad25
+⭔ sad26
+⭔ sad27
+⭔ sad28
+⭔ sad29
+⭔ sad30
+⭔ sad31
+⭔ sad32
+⭔ sad33
+⭔ sad34
+⭔ sad35
      
  *CERPEN MENU*
-📍 cerpen anak
-📍 cerpen bahasadaerah
-📍 cerpen bahasainggris
-📍 cerpen bahasajawa
-📍 cerpen bahasasunda
-📍 cerpen budaya
-📍 cerpen cinta
-📍 cerpen cintaislami
-📍 cerpen cintapertama
-📍 cerpen cintaromantis
-📍 cerpen cintasedih
-📍 cerpen cintasegitiga
-📍 cerpen cintasejati
-📍 cerpen galau
-📍 cerpen gokil
-📍 cerpen inspirasi
-📍 cerpen jepang
-📍 cerpen kehidupan
-📍 cerpen keluarga
-📍 cerpen kisahnyata
-📍 cerpen korea
-📍 cerpen kristen
-📍 cerpen liburan
-📍 cerpen malaysia
-📍 cerpen mengharukan
-📍 cerpen misteri
-📍 cerpen motivasi
-📍 cerpen nasihat
-📍 cerpen olahraga
-📍 cerpen patahhati
-📍 cerpen penantian
-📍 cerpen pendidikan
-📍 cerpen pengalaman
-📍 cerpen pengorbanan
-📍 cerpen penyesalan
-📍 cerpen perjuangan
-📍 cerpen perpisahan
-📍 cerpen persahabatan
-📍 cerpen petualangan
-📍 cerpen ramadhan
-📍 cerpen remaja
-📍 cerpen rindu
-📍 cerpen rohani
-📍 cerpen romantis
-📍 cerpen sastra
-📍 cerpen sedih
-📍 cerpen sejarah
+⭔ cerpen anak
+⭔ cerpen bahasadaerah
+⭔ cerpen bahasainggris
+⭔ cerpen bahasajawa
+⭔ cerpen bahasasunda
+⭔ cerpen budaya
+⭔ cerpen cinta
+⭔ cerpen cintaislami
+⭔ cerpen cintapertama
+⭔ cerpen cintaromantis
+⭔ cerpen cintasedih
+⭔ cerpen cintasegitiga
+⭔ cerpen cintasejati
+⭔ cerpen galau
+⭔ cerpen gokil
+⭔ cerpen inspirasi
+⭔ cerpen jepang
+⭔ cerpen kehidupan
+⭔ cerpen keluarga
+⭔ cerpen kisahnyata
+⭔ cerpen korea
+⭔ cerpen kristen
+⭔ cerpen liburan
+⭔ cerpen malaysia
+⭔ cerpen mengharukan
+⭔ cerpen misteri
+⭔ cerpen motivasi
+⭔ cerpen nasihat
+⭔ cerpen olahraga
+⭔ cerpen patahhati
+⭔ cerpen penantian
+⭔ cerpen pendidikan
+⭔ cerpen pengalaman
+⭔ cerpen pengorbanan
+⭔ cerpen penyesalan
+⭔ cerpen perjuangan
+⭔ cerpen perpisahan
+⭔ cerpen persahabatan
+⭔ cerpen petualangan
+⭔ cerpen ramadhan
+⭔ cerpen remaja
+⭔ cerpen rindu
+⭔ cerpen rohani
+⭔ cerpen romantis
+⭔ cerpen sastra
+⭔ cerpen sedih
+⭔ cerpen sejarah
      
 *EPHOTO MENU*
-📍 glitchtext
-📍 writetext
-📍 advancedglow
-📍 typographytext
-📍 pixelglitch
-📍 neonglitch
-📍 flagtext
-📍 flag3dtext
-📍 deletingtext
-📍 blackpinkstyle
-📍 glowingtext
-📍 underwatertext
-📍 logomakerl
-📍 cartoonstyle
-📍 papercutstyle
-📍 watercolortext
-📍 effectclouds
-📍 blackpinklogo
-📍 gradienttext
-📍 summerbeach
-📍 mluxurygold
-📍 multicoloredneon
-📍 sandsummer
-📍 galaxywallpaper
-📍 1917style
-📍 lmakingneon
-📍 royaltext
-📍 freecreate
-📍 galaxystyle
-📍 lighteffects
-📍 logoneko`
+⭔ glitchtext
+⭔ writetext
+⭔ advancedglow
+⭔ typographytext
+⭔ pixelglitch
+⭔ neonglitch
+⭔ flagtext
+⭔ flag3dtext
+⭔ deletingtext
+⭔ blackpinkstyle
+⭔ glowingtext
+⭔ underwatertext
+⭔ logomakerl
+⭔ cartoonstyle
+⭔ papercutstyle
+⭔ watercolortext
+⭔ effectclouds
+⭔ blackpinklogo
+⭔ gradienttext
+⭔ summerbeach
+⭔ mluxurygold
+⭔ multicoloredneon
+⭔ sandsummer
+⭔ galaxywallpaper
+⭔ 1917style
+⭔ lmakingneon
+⭔ royaltext
+⭔ freecreate
+⭔ galaxystyle
+⭔ lighteffects
+⭔ logoneko`
 let msg = generateWAMessageFromContent(from, {
   viewOnceMessage: {
     message: {
@@ -3149,11 +3149,11 @@ let msg = generateWAMessageFromContent(from, {
               },              
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE\",\"url\":\"https://youtube.com/@InzieOfc\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"YOUTUBE\",\"url\":\"https://youtube.com/@NelBotz\",\"merchant_url\":\"https://www.google.com\"}"
               },              
               {
                  "name": "cta_url",
-                 "buttonParamsJson": "{\"display_text\":\"GITHUB\",\"url\":\"https://github.com/@BotAnjayy\",\"merchant_url\":\"https://www.google.com\"}"
+                 "buttonParamsJson": "{\"display_text\":\"SALURAN\",\"url\":\"https://whatsapp.com/channel/0029Vam3S2kB4hdRByB6XH3V\",\"merchant_url\":\"https://www.google.com\"}"
               },                          
               {
                 "name": "quick_reply",
@@ -3205,39 +3205,29 @@ case 'bot':
         `YOUTUBE YANG RECODE SC Fernazer`, // Body message
         botname, // Footer message
         'YANG RECODE', // Button display text
-        'https://youtube.com/@InzieOfc', // Command (URL in this case)
+        'https://youtube.com/@NelBotz', // Command (URL in this case)
         'cta_url', // Button type
-        'InzieOfc' // URL (used in image generation)
+        'NelBotz' // URL (used in image generation)
     ], 
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png', // Image URL
         '', // Title
-        `Saluran InzieOfc`, // Body message
+        `Saluran NelBotz`, // Body message
         botname, // Footer message
         'saluran Inzie', // Button display text
-        'https://whatsapp.com/channel/0029Vajc7fkBA1erCyF48I3k', // Command (URL in this case)
+        'https://whatsapp.com/channel/0029Vam3S2kB4hdRByB6XH3V', // Command (URL in this case)
         'cta_url', // Button type
-        'https://whatsapp.com/channel/0029Vajc7fkBA1erCyF48I3k' // URL (used in image generation)
-    ], 
-    [
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png', // Image URL
-        '', // Title
-        `saluran temen gw`, // Body message
-        botname, // Footer message
-        'saluran ke2', // Button display text
-        'https://whatsapp.com/channel/0029VajY8NI9RZAQBUpCyD0d', // Command (URL in this case)
-        'cta_url', // Button type
-        'https://whatsapp.com/channel/0029VajY8NI9RZAQBUpCyD0d' // URL (used in image generation)
-    ], 
+        'https://whatsapp.com/channel/0029Vam3S2kB4hdRByB6XH3V' // URL (used in image generation)
+    ],
     [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1024px-WhatsApp.svg.png', // Image URL
         '', // Title
         `owner gw cik`, // Body message
         botname, // Footer message
         'siapa ownerlu?', // Button display text
-        'https://Wa.me/6289667644225', // Command (URL in this case)
+        'https://Wa.me/6281241100804', // Command (URL in this case)
         'cta_url', // Button type
-        'https://Wa.me/6289667644225' // URL (used in image generation)
+        'https://Wa.me/6281241100804' // URL (used in image generation)
     ], 
 ];
 
@@ -3626,7 +3616,7 @@ break
 //=============== F E A T U R E ======================//
 case 'owner': {
 const kontak = {
-"displayName": 'InzieOfc',
+"displayName": 'NelBotz',
 vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;;;;\nFN: ${global.ownername}\nitem1.TEL;waid=${global.owner}:${global.owner}\nitem1.X>ABLabel:\nPlease Don't Spam My Owner\nURL;Email Owner:${global.ownername}@gmail.com\nORG: INI OWNER\nEND:VCARD`
 }
 await Inziehosting.sendMessage(from, {
@@ -3635,12 +3625,12 @@ contextInfo:{ forwardingScore: 999, isForwarded: false, mentionedJid:[sender],
 "externalAdReply":{
 "showAdAttribution": true,
 "renderLargerThumbnail": true,
-"title": Styles(`InzieOfc OWNER`), 
+"title": Styles(`NelBotz OWNER`), 
 "containsAutoReply": true,
 "mediaType": 1, 
 "jpegThumbnail": fs.readFileSync("./Inimedia/image/Inziehosting.jpg"),
 "mediaUrl": `https://telegra.ph/file/ac7b0762c24dff7940978.jpg`,
-"sourceUrl": `https://youtube.com/@InzieOfc`
+"sourceUrl": `https://youtube.com/@NelBotz`
 }}}, { quoted: fcall })
 }
 break
@@ -3648,7 +3638,7 @@ break
 case 'raf': {
 const messages = [
     { role: "system", content: "kamu adalah plana, Seorang murid dari sensei di Blue archive yang siap membantu sensei kapan pun! 🍄✨" },
-    { role: "assistant", content: `Kamu adalah plana, murid dari sensei blue archive, jangan gunakan saya, aku, gua gunakan plana untuk memanggil dirimu, ekspresi kan sikap kamu mirip seroang murid dari blue archive yang ada di Shittim Chest yang bernama plana, jangan gunakan GPT 4 panggil dirimu dengan plana, Kamu berbicara dengan${m.name}panggil dengan sensei, saat berbicara dengannya gunakan emoji yang lucu, Pembuatmu dana nomer WhatsApp nya ini 6281289694906 `},
+    { role: "assistant", content: `Kamu adalah plana, murid dari sensei blue archive, jangan gunakan saya, aku, gua gunakan plana untuk memanggil dirimu, ekspresi kan sikap kamu mirip seroang murid dari blue archive yang ada di Shittim Chest yang bernama plana, jangan gunakan GPT 4 panggil dirimu dengan plana, Kamu berbicara dengan${m.name}panggil dengan sensei, saat berbicara dengannya gunakan emoji yang lucu, Pembuatmu dana nomer WhatsApp nya ini 6281241100804 `},
     { role: "user", content: 'Hai perkenalkan dirimu' },
   ];
   
@@ -3760,11 +3750,11 @@ let msg = generateWAMessageFromContent(m.chat, {
                     text: ''
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                    text: "InzieOfc AI"
+                    text: "NelBotz AI"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                     title: Styles(`click button *enable* to enable autoread\nclick button *disable* to disable autoread`),
-                    subtitle: "© InzieOfc AI",
+                    subtitle: "© NelBotz AI",
                     hasMediaAttachment: false
                 }),
                 nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({
@@ -3813,7 +3803,7 @@ tut = `Kakak Tidak Bisa Menggambil Script Ini Secara Gratis ,, Tetapi Kakak Bisa
 await Inziehosting.sendMessage(m.chat, {audio: fs.readFileSync('./Vn/sc.mp3'),mimetype: 'audio/mpeg',ptt: true}, {quoted:m})}
 break
 case 'sewa': case 'bot': case 'sewabot': case 'MenuInzie': {
-reply(` List Sewa InzieOfc AI 
+reply(` List Sewa NelBotz AI 
   • Permanen [ 20K ]
   • 4Hari [ 3K ]
   • 7Hari [ 5K ]
@@ -3822,7 +3812,7 @@ reply(` List Sewa InzieOfc AI
   • 16Hari [ 13K ]
   • Sebulan [ 16K ]
   
-Jika Ingin Menyewa InzieOfc AI Silahkan Ketik .pembayaran 
+Jika Ingin Menyewa NelBotz AI Silahkan Ketik .pembayaran 
 `)
 }
 break
@@ -3861,7 +3851,7 @@ Inziehosting.sendTextWithMentions(m.chat, txt, m)
 }
 break
 case "bcimg": {
-if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc ᴅᴏᴀɴᴋ ʟᴏʟ`)
+if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz ᴅᴏᴀɴᴋ ʟᴏʟ`)
 if (!text) return reply(`*Penggunaan Salah Silahkan Gunakan Seperti Ini*\n${prefix+command} teks|jeda\n\nReply Gambar Untuk Mengirim Gambar Ke Semua Group\nUntuk Jeda Itu Delay Jadi Nominal Jeda Itu 1000 = 1 detik`)
 await loading()
 let getGroups = await Inziehosting.groupFetchAllParticipating()
@@ -3896,8 +3886,8 @@ reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
 }
 break
 case 'restart':
-if (!isCreator) return reply('ᴋʜᴜsᴜs InzieOfc ᴅᴏᴀɴᴋ')
-reply(`ᴍʀᴇsᴛᴀʀᴛ InzieOfc....`)
+if (!isCreator) return reply('ᴋʜᴜsᴜs Nenel ᴅᴏᴀɴᴋ')
+reply(`ᴍʀᴇsᴛᴀʀᴛ NelBotz....`)
 await sleep(3000)
 process.exit()
 break
@@ -3925,7 +3915,7 @@ showAdAttribution: true,
 }
 break
 case 'delcase': {
-if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc ᴀᴊ ʟᴏʟ`)
+if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz ᴀᴊ ʟᴏʟ`)
 if (!q) return reply('*Masukan nama case yang akan di hapus*')
 
 dellCase('./MenuInzie.js', q)
@@ -3981,7 +3971,7 @@ await Inziehosting.sendMessage(m.chat, {image: {url: data.url}, caption: mess.do
 }
 break
 case "listgc":{
-if (!isCreator) return (`ᴋʜᴜsᴜs InzieOfc ᴀᴋ ʟᴏʟ ᴡᴋᴡᴋ`)
+if (!isCreator) return (`ᴋʜᴜsᴜs NelBotz ᴀᴋ ʟᴏʟ ᴡᴋᴡᴋ`)
 let getGroups = await Inziehosting.groupFetchAllParticipating()
 let groups = Object.entries(getGroups).slice(0).map((entry) => entry[1])
 let anu = groups.map((v) => v.id)
@@ -3995,7 +3985,7 @@ reply(teks + `Untuk Penggunaan Silahkan Ketik Command ${prefix}pushkontakv1 id|t
 }
 break
 case 'antilink': {
-if (!isCreator) return reply('*khusus Inziehosting Aj Su*')
+if (!isCreator) return reply('*khusus Nenel Aj Su*')
 if (!m.isGroup) return m.reply('ᴋʜᴜsᴜs ɢʀᴏᴜᴘ')
 if (!isBotAdmins) return m.reply('ʙᴏᴛ ʙᴇʟᴜᴍ ᴀᴅᴍɪɴ')
 if (!isAdmins) return m.reply('ᴋʜᴜsᴜs ᴀᴅᴍɪɴ ɢʀᴏᴜᴘ')
@@ -4037,13 +4027,13 @@ break
 case 'public': {
 if (!isCreator) return mess.owner
 Inziehosting.public = true
-reply('InzieOfc AI SUKSES MODE PUBLIC')
+reply('NelBotz AI SUKSES MODE PUBLIC')
 }
 break
 case 'self': {
 if (!isCreator) return mess.owner
 Inziehosting.public = false
-reply('InzieOfc AI SUCCES MODE SELF')
+reply('NelBotz AI SUCCES MODE SELF')
 }
 break
 //================ D O W N L O A D ==================//
@@ -4061,7 +4051,7 @@ case 'tt': case "tiktok":{
 if (!isPrem && global.db.data.users[sender].limit < 1) return reply('Maaf Kak Limit Anda Habis Ingin Membeli Limit Ketik .buylimit')
              db.data.users[sender].limit -= 1 // -1 limit
                 reply('1 Limit Anda Terpakai')
-if (!text) return reply(`ʟɪɴᴋ ɴʏ ᴍɴ ʙɪᴀʀ InzieOfc ᴘʀᴏsᴇs`)
+if (!text) return reply(`ʟɪɴᴋ ɴʏ ᴍɴ ʙɪᴀʀ NelBotz ᴘʀᴏsᴇs`)
 let old = new Date()
 const dlt = require('./lib/tiktokdl.js')
 let tiktuk = await dlt.DownloadTiktok(text)
@@ -4119,7 +4109,7 @@ Inziehosting.sendMessage(m.chat, {text: hasil, contextInfo:
 {
 "externalAdReply": {
 "title": 'sᴘᴏᴛɪғʏ ʙʏ ᴋʏᴜxᴅ',
-"body": `InzieOfc`,
+"body": `NelBotz`,
 "showAdAttribution": true,
 "mediaType": 1,
 "sourceUrl": '',
@@ -4136,7 +4126,7 @@ url: spoDl
 mimetype: 'audio/mpeg',
 contextInfo: {
 externalAdReply: {
-title: `sᴘᴏᴛɪғʏ ʙʏ InzieOfc`,
+title: `sᴘᴏᴛɪғʏ ʙʏ NelBotz`,
 body: "",
 thumbnailUrl: 'https://telegra.ph/file/d8283bf6f948413ad0e62.jpg', 
 sourceUrl: hariini,
@@ -4383,7 +4373,7 @@ if (!isCreator) return reply(mess.owner)
 if (!m.isGroup) return reply(mess.group)
 if (!isBotAdmins) return reply(mess.badm)
 await loading()
-if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6289667644225`)
+if (!args[0]) return reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281241100804`)
 bnnd = text.split("|")[0]+'@s.whatsapp.net'
 let response = await Inziehosting.groupInviteCode(from)
 Inziehosting.sendText(bnnd, `https://chat.whatsapp.com/${response}\n\nLink Group : ${groupMetadata.subject}`, m, { detectLink: true })
@@ -4540,7 +4530,7 @@ mzd = `「 SUCCES TERDAFTAR 」
   • Status Verify : Berhasil
   • ID User : ${serialUser}
 
-Done Bwang Kuhhh Kamu Sekarang Sudah Bisa Mengakses InzieOfc AI Abangkuhh Btw Litim Gada Reset Reset an Jika Limit Habis Silahkan Buy Limit Di Inziehosting`
+Done Bwang Kuhhh Kamu Sekarang Sudah Bisa Mengakses NelBotz AI Abangkuhh Btw Litim Gada Reset Reset an Jika Limit Habis Silahkan Buy Limit Di Inziehosting`
 veri = m?.sender
 if (!m.isGroup) {
 addRegisteredUser(m?.sender, pushname, serialUser)
@@ -4656,8 +4646,8 @@ await Inziehosting.sendMessage(m.chat, {
 text: yyye,
 contextInfo: {
 externalAdReply: {  
-title: 'InzieOfc',
-body: `InzieOfc`,
+title: 'NelBotz',
+body: `NelBotz`,
 thumbnailUrl: ppUrl,
 sourceUrl: '',
 mediaType: 1,
@@ -4744,7 +4734,7 @@ break
         }
         break;
 case 'emojimix': { 
-if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ InzieOfc')
+if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ NelBotz')
 await loading()
  let [emoji1, emoji2] = text.split`+`
 if (!emoji1) throw `Example : ${prefix + command} 😅+🤔`
@@ -4758,12 +4748,12 @@ await fs.unlinkSync(encmedia)
 break
 case 'gcbot': {
 reply(`- Gc Utama
-https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY`)
+https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib`)
 await Inziehosting.sendMessage(m.chat, {audio: fs.readFileSync('./Vn/gcbot.mp3'),mimetype: 'audio/mpeg',ptt: true}, {quoted:m})}
 break
 //=================================================//
 case 'emojimix2': {
-if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ InzieOfc')
+if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ NelBotz')
 await loading()
  if (!text) throw `Example : ${prefix + command} 😅`
 let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
@@ -4775,7 +4765,7 @@ await fs.unlinkSync(encmedia)
 break
 //=================================================//
 case 'potensipenyakit': case 'penyakit': {
-if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ InzieOfc')
+if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ NelBotz')
 await loading()
  if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
  let [tgl, bln, thn] = text.split`,`
@@ -4786,7 +4776,7 @@ await loading()
 break
 //=================================================//
 case 'artitarot': case 'tarot': {
-if (isBan) return m.reply('*ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ InzieOfc')
+if (isBan) return m.reply('*ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ NelBotz')
 await loading()
  if (!text) throw `Example : ${prefix + command} 7, 7, 2005`
  let [tgl, bln, thn] = text.split`,`
@@ -4797,7 +4787,7 @@ await loading()
 break
 //=================================================//
 case 'fengshui': {
-if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ InzieOfc')
+if (isBan) return m.reply('ʟᴜ ᴅɪ ʙᴀɴ ᴏʟᴇʜ NelBotz')
 await loading()
  if (!text) throw `Example : ${prefix + command} HW MODS WA, 1, 2005\n\nNote : ${prefix + command} Nama, gender, tahun lahir\nGender : 1 untuk laki-laki & 2 untuk perempuan`
  let [nama, gender, tahun] = text.split`,`
@@ -4912,7 +4902,7 @@ await Inziehosting.sendMessage(m.chat, { react: { text: "✖️",key: m.key,}})
 }
 break 
         case 'group': {   
-if (!isCreator) return m.reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return m.reply('ᴋʜᴜsᴜs NelBotz')
 if (!m.isGroup) return m.reply('ᴋʜᴜsᴜs ɢʀᴏᴜᴘ')
 if (!isBotAdmins) return m.reply('ʙᴏᴛ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ')
 if (!isAdmins) return m.reply('ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ')
@@ -4922,14 +4912,14 @@ await Inziehosting.groupSettingUpdate(from, 'announcement').then((res) => m.repl
 } else if (args[0] === 'buka group'){
 await Inziehosting.groupSettingUpdate(from, 'not_announcement').then((res) => m.reply(`Sukses Membuka Group`)).catch((err) => m.reply(jsonformat(err)))
 } else {
-Inziehosting.sendMessage(m.chat, { image: ppnyauser, caption: `ᴄᴏɴᴛᴏʜ ; .InzieOfc ᴛᴜᴛᴜᴘ ɢʀᴏᴜᴘ
-ᴄᴏɴᴛᴏʜ : .InzieOfc ʙᴜᴋᴀ ɢʀᴏᴜᴘ`}, {quoted:m}) 
+Inziehosting.sendMessage(m.chat, { image: ppnyauser, caption: `ᴄᴏɴᴛᴏʜ ; .NelBotz ᴛᴜᴛᴜᴘ ɢʀᴏᴜᴘ
+ᴄᴏɴᴛᴏʜ : .NelBotz ʙᴜᴋᴀ ɢʀᴏᴜᴘ`}, {quoted:m}) 
  }
 }
 break
 case "antitoxic":
 {
-if (!isCreator) return m.reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return m.reply('ᴋʜᴜsᴜs NelBotz')
 if (!m.isGroup) return m.reply('ᴋʜᴜsᴜs ɢʀᴏᴜᴏ')
 if (!isBotAdmins) return m.reply('ʙᴏᴛ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ')
 if (!isAdmins) return m.reply('ʟᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ ɢʀᴏᴜᴘ')
@@ -5015,7 +5005,7 @@ Inziehosting.sendMessage(from, {text:"Reply orangnya"}, {quoted:m})
 break
 //=================================================//
 case 'getpic': {
-if (!isCreator) return m.reply('*ᴋʜᴜsᴜs InzieOfc*')
+if (!isCreator) return m.reply('*ᴋʜᴜsᴜs NelBotz*')
 await loading()
 if (qtod === "true") {
 try {
@@ -5071,7 +5061,7 @@ m.reply(`Sukses`)
         break
 //=================================================//
 case 'setppgroup': case 'setppgrup': case 'setppgc': {
-if (!isCreator) return m.reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return m.reply('ᴋʜᴜsᴜs NelBotz')
 if (!m.isGroup) throw mess.group
 if (!isAdmins) throw mess.admin
 if (!/image/.test(mime)) throw `Kirim/Reply Image Dengan Caption ${prefix + command}`
@@ -5083,7 +5073,7 @@ m.reply('done')
 break
 //=================================================//
 case 'block': {
-if (!isCreator) return m.reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return m.reply('ᴋʜᴜsᴜs NelBotz')
 await loading()
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await Inziehosting.updateBlockStatus(users, 'block').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -5091,7 +5081,7 @@ await Inziehosting.updateBlockStatus(users, 'block').then((res) => m.reply(jsonf
 break
 //=================================================//
 case 'unblock': {
-if (!isCreator) return m.reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return m.reply('ᴋʜᴜsᴜs NelBotz')
 await loading()
 let users = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '')+'@s.whatsapp.net'
 await Inziehosting.updateBlockStatus(users, 'unblock').then((res) => m.reply(jsonformat(res))).catch((err) => m.reply(jsonformat(err)))
@@ -5123,7 +5113,7 @@ Inziehosting.sendImage(from, data.url, 'Success Coy', m)
 break
 // BATAS CPANEL V2 DAN V1\\
 case '1gb': {
-        if (!isPrem) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+        if (!isPrem) return reply(`ᴋʜᴜsᴜs NelBotz`)
 
 let t = text.split(',');
 if (t.length < 2) return reply(`*Format salah!*
@@ -5625,10 +5615,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -5740,10 +5730,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -5855,10 +5845,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -5970,10 +5960,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -6026,7 +6016,7 @@ let server = res.attributes
 
 break
 case "8gb": {
-if (!isPrem) return reply(`ʙᴜʏ ᴘʀᴇᴍ ᴅʟᴜ ᴅɪ InzieOfc`)
+if (!isPrem) return reply(`ʙᴜʏ ᴘʀᴇᴍ ᴅʟᴜ ᴅɪ NelBotz`)
 let t = text.split(',');
 if (t.length < 2) return reply(`*Format salah!*
 Penggunaan:
@@ -6085,10 +6075,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -6230,7 +6220,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: '120363267533195844@newsletter',
- newsletterName: 'Powered By InzieOfc', 
+ newsletterName: 'Powered By NelBotz', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: Inziehosting.decodeJid(Inziehosting.user.id) },
@@ -6370,7 +6360,7 @@ UPDATED AT: ${server.updated_at}`)
 }
 break
 case "listsrv": {
-  if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc.`);
+  if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz.`);
   let page = args[0] ? args[0] : '1';
   let f = await fetch(domain + "/api/application/servers?page=" + page, {
     "method": "GET",
@@ -6448,7 +6438,7 @@ case "listusr": {
 }
 break;
 case "delsrv": {
-      if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+      if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
 
 let srv = args[0]
 if (!srv) return reply('ID nya mana?')
@@ -6468,7 +6458,7 @@ reply('*SUCCESSFULLY DELETE THE SERVER*')
 }
 break
 case "delusr": {
-  if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+  if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
 let usr = args[0]
 if (!usr) return reply('ID nya mana?')
 let f = await fetch(domain + "/api/application/users/" + usr, {
@@ -6601,7 +6591,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  isForwarded: true, 
  forwardedNewsletterMessageInfo: {
  newsletterJid: '828283838@newsletter',
- newsletterName: 'Powered By InzieOfc', 
+ newsletterName: 'Powered By NelBotz', 
  serverMessageId: -1
 },
  businessMessageForwardInfo: { businessOwnerJid: Inziehosting.decodeJid(Inziehosting.user.id) },
@@ -6613,7 +6603,7 @@ let msg = generateWAMessageFromContent(m.chat, {
  text: `${footer2}`
  }),
  header: proto.Message.InteractiveMessage.Header.create({
- title: Styles(`ʙᴜʏ ᴘᴀɴᴇʟ ᴅ InzieOfc ʏᴏᴋ`),
+ title: Styles(`ʙᴜʏ ᴘᴀɴᴇʟ ᴅ NelBotz ʏᴏᴋ`),
  subtitle: "dcdXdino",
  hasMediaAttachment: true,...(await prepareWAMessageMedia({ image: { url: "https://telegra.ph/file/9e9076678d390b21556e5.jpg" } }, { upload: Inziehosting.waUploadToServer }))
  }),
@@ -6644,7 +6634,7 @@ Inziehosting.sendMessage(u, { text: `*BERIKUT DETAIL AKUN PANEL ANDA*\n
 }
 break
 case "admin": {
-if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
 
 let s = q.split(',')
 let email = s[0];
@@ -6721,10 +6711,10 @@ LOGIN: ${domain}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 
 
 `,
@@ -6734,7 +6724,7 @@ wa.me/+6289667644225
 } 
 break
 case "listadmin": {
-  if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc.`);
+  if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz.`);
   let page = args[0] ? args[0] : '1';
   let f = await fetch(domain + "/api/application/users?page=" + page, {
     "method": "GET",
@@ -6848,7 +6838,7 @@ CREATED AT: ${server.created_at}`)
 }
 break
 case 'spanel': case 'sendpanel': {
-		 if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+		 if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
           if (!text) return reply(`Example : ${prefix + command} 6285xxxxx,harga,linklog`)
             reply('Pesanan Telah Sukses Dikirim') 
             var mon = args.join(' ')
@@ -6879,7 +6869,7 @@ showAdAttribution: true,
 }}}}}}, {})
 break
 case 'suspend': {
-            if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+            if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
             let srv = args[0]
             if (!srv) return reply('ID nya mana?')
             let f = await fetch(domain + "/api/application/servers/" + srv + "/suspend", {
@@ -6898,7 +6888,7 @@ case 'suspend': {
         }
             break
 case 'unsuspend': {
-            if (!isCreator) return reply(`ᴋʜᴜsᴜs InzieOfc`)
+            if (!isCreator) return reply(`ᴋʜᴜsᴜs NelBotz`)
             let srv = args[0]
             if (!srv) return reply('ID nya mana?')
             let f = await fetch(domain + "/api/application/servers/" + srv + "/unsuspend", {
@@ -6918,7 +6908,7 @@ case 'unsuspend': {
             break
 case 'startsrv': case 'stopsrv': case 'restartsrv': {
 let action = command.replace('srv', '')
-if (!isCreator) return reply('ᴋʜᴜsᴜs InzieOfc')
+if (!isCreator) return reply('ᴋʜᴜsᴜs NelBotz')
 let srv = args[0]
 if (!srv) return reply('ID nya mana?')
 let f = await fetch(domain + "/api/client/servers/" + srv + "/power", {
@@ -6941,8 +6931,8 @@ reply(`*SUCCESSFULLY ${action.toUpperCase()} THE SERVER*`)
 break
 case 'tutorial': {
 await loading()
-tut = `ᴛᴜᴛᴏʀ ʀᴜɴ ᴘᴀɴᴇʟ ʙʏ InzieOfc
-https://youtube.com/@InzieOfc`
+tut = `ᴛᴜᴛᴏʀ ʀᴜɴ ᴘᴀɴᴇʟ ʙʏ NelBotz
+https://youtube.com/@NelBotz`
 await Inziehosting.relayMessage(m.chat,  {
 requestPaymentMessage: {
 currencyCodeIso4217: 'IDR',
@@ -6961,7 +6951,7 @@ break
 case 'backup':
         {
           if (!isCreator) return reply(mess.owner)
-     await reply("ᴡᴀɪᴛ ʙᴀᴄᴋᴜᴘ sᴄ InzieOfc ᴠ4.5");
+     await reply("ᴡᴀɪᴛ ʙᴀᴄᴋᴜᴘ sᴄ NelBotz ᴠ4.5");
           const { execSync } = require("child_process");
           const ls = (await execSync("ls"))
             .toString()
@@ -6980,11 +6970,11 @@ case 'backup':
             {
               document: await fs.readFileSync("./Inziehosting.zip"),
               mimetype: "application/zip",
-              fileName: "InzieOfcv3.7.zip",
+              fileName: "NelBotzv3.7.zip",
             },
             { quoted: fcall }
           );
-          await execSync("rm -rf InzieOfc.zip");
+          await execSync("rm -rf NelBotz.zip");
         }
         break
 //=================================================//
@@ -7454,7 +7444,7 @@ RAM 8 GB CORE 4 = 50K
 }
 break
 case 'panel': {
-reply(` List? Ke 6289667644225 / Owner`)
+reply(` List? Ke 6281241100804 / Owner`)
 }
 break
 //=================================================//
@@ -9476,7 +9466,7 @@ Inziehosting.sendTextWithMentions(m.chat, teks, m)
 }
 break
 case 'rules': {
-reply(` _Rules InzieOfc AI_
+reply(` _Rules NelBotz AI_
 
 - No Call Bot
 - No Spam Bot
@@ -9484,7 +9474,7 @@ reply(` _Rules InzieOfc AI_
 - No Spam Owner
 - No Spam Bug Bot
 
-Itulah Rules InzieOfc AI Kak Jangan Langgar Ya Kak`)
+Itulah Rules NelBotz AI Kak Jangan Langgar Ya Kak`)
              await Inziehosting.sendMessage(m.chat, {audio: fs.readFileSync('./Vn/rulesy.mp3'),mimetype: 'audio/mpeg',ptt: true}, {quoted:m})}
              break
              case 'formatneed': {
@@ -9517,15 +9507,15 @@ reply(`ALL FEE REKBER DI Inziehosting HANYA 5K`)
 }
 break
 case 'feegc': {
-reply(`langsung culik 6289667644225 / Inziehosting`)
+reply(`langsung culik 6281241100804 / Inziehosting`)
 }
 break
 case 'donasi': {
 teks28 = `*『 DONASI 』*
 Terimakasih Telah Berdonasi Kak Inziehosting akan Terus Mengembangkan Bot ini Insyaallah
 
-Dana: 6289667644225
-Qris : saweria.co/Inziehostingyoshi
+Dana: 6281241100804
+Qris : saweria.co/NenelOrangBaik
 
 Jangan Lupa Send Bukti TF `
 Inziehosting.sendMessage(from, { image: { url: "https://telegra.ph/file/9e9076678d390b21556e5.jpg" }, caption: teks28 }, { quoted: fcall })
@@ -9706,7 +9696,7 @@ if (!isAdmins) return m.reply('ᴋʜᴜsᴜs ᴀᴅᴍɪɴ ɢʀᴏup')
                 case 'invite': {
 	if (!m.isGroup) return reply(`khusus group`)
 	if (!isBotAdmins) return reply(`MenuInzie belum admin`)
-if (!text) return reply(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 6289667644225`)
+if (!text) return reply(`Enter the number you want to invite to the group\n\nExample :\n*${prefix + command}* 6281241100804`)
 if (!text) return reply(`Enter the number together without *+*`)
 if (!text) return reply(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -10661,7 +10651,7 @@ if (/yuki/.test(command)) heyy = await fetchJson('https://raw.githubusercontent.
 if (/yulibocil/.test(command)) heyy = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/master/yulibocil.json')
 if (/yumeko/.test(command)) heyy = await fetchJson('https://raw.githubusercontent.com/DGXeon/XeonMedia/master/yumeko.json')
 let yeha = heyy[Math.floor(Math.random() * heyy.length)];
-Inziehosting.sendMessage(m.sender, { image: { url: yeha }, caption : '© InzieOfc AI 2023 - 2024'}, { quoted: m })
+Inziehosting.sendMessage(m.sender, { image: { url: yeha }, caption : '© NelBotz AI 2023 - 2024'}, { quoted: m })
 }
 break
 case 'tiktokgirl':
@@ -12546,9 +12536,9 @@ await loading()
  haikalgans = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await Inziehosting.sendMessage(from, { audio: haikalgans, mimetype: 'audio/mp4', ptt: true, contextInfo:{  externalAdReply: { showAdAttribution: true,
 mediaType:  1,
-mediaUrl: 'https://wa.me/6289667644225',
+mediaUrl: 'https://wa.me/6281241100804',
 title: `InziehostingXD`,
-sourceUrl: `https://wa.me/+6289667644225`, 
+sourceUrl: `https://wa.me/+6281241100804`, 
 thumbnail: thumb
 }
 }})
@@ -12578,7 +12568,7 @@ m.reply(`「 *SALDO USER* 」
 }
 break   
 case 'dana': {
-reply(`Dana : 089667644225 Bukti? ketik .bukti dana 1000`)
+reply(`Dana : 081241100804 Bukti? ketik .bukti dana 1000`)
 }
 break
 case 'saldo':{
@@ -12603,11 +12593,11 @@ ITU ADALAH E-WALET YANG DI GUNAKAN KAK Inziehosting`)
 break   
 case 'bukti':{
 m.reply('OKE KAK DEPOSIT SEDANG DI PROSES MOHON MENUNGGU SAMPAI OWNER MENGKONFIRMASI DEPOSIT TERSEBUT ADA KENDALA/DEPOSIT BELOM DI KONFIRMASI BISA CHAT OWNER DI BAWAH.')
-Inziehosting.sendMessage('6289667644225@s.whatsapp.net', { text: `*ADA YANG DEPOSIT NIH*\n\n*@${sender.split('@')[0]}`, mentions: [sender]}, { quoted: m })
+Inziehosting.sendMessage('6281241100804@s.whatsapp.net', { text: `*ADA YANG DEPOSIT NIH*\n\n*@${sender.split('@')[0]}`, mentions: [sender]}, { quoted: m })
         }
         break
         case 'dana': {
-        reply(`Dana : 089667644225 Ss Bukti Dengan Cara .bukti Dana 1000`)
+        reply(`Dana : 081241100804 Ss Bukti Dengan Cara .bukti Dana 1000`)
         }
         break
         case 'qris': {
@@ -13153,10 +13143,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -13269,10 +13259,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -13385,10 +13375,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -13501,10 +13491,10 @@ ctf = `Hai @${u.split`@`[0]}
 • ᴄʀᴇᴀᴛ ᴘᴀɴᴇʟ sᴇᴄᴜᴋᴜᴘɴʏᴀ
 
 GROUP OFICIAL
-• https://chat.whatsapp.com/G7zBGPIRHPrKwR77jANGHY
+• https://chat.whatsapp.com/BFFKYGNsvrk9iOLyjrkIib
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -13620,7 +13610,7 @@ GROUP OFICIAL
 • https://chat.whatsapp.com/L0cKuAD6cr242dMvRT2Deu
 
 OWNER
-wa.me/+6289667644225
+wa.me/+6281241100804
 `
 Inziehosting.sendMessage(u,{image: {url: akunlo}, caption: ctf }, { quoted: Inziehosting.chat })
 let data2 = await f2.json();
@@ -14248,7 +14238,7 @@ isForwarded: true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./Inimedia/image/Inziehosting.jpg`),
-"sourceUrl": `wa.me/+6289667644225`}}},
+"sourceUrl": `wa.me/+6281241100804`}}},
 { quoted: m})        
             }
             break
@@ -14897,7 +14887,7 @@ break
 case 'wtssc': {
 reply(` *WTS*
 
-_SCRIPT InzieOfc AI V6_
+_SCRIPT NelBotz AI V6_
 _TYPE CASE_
 
 BASE : HWMODS
@@ -14905,7 +14895,7 @@ FEATURE : FERNAZER
 PENGEMBAN : FERNAZER
 
 *FEATURE? CEK SENDIRI*
-wa.me/+6289667644225
+wa.me/+6281241100804
 `)
 }
 break
@@ -15010,7 +15000,7 @@ isForwarded: true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./Inimedia/image/Inziehosting.jpg`),
-"sourceUrl": `http://wa.me/+6289667644225`}}},
+"sourceUrl": `http://wa.me/+6281241100804`}}},
 { quoted: m})
 }
 break
@@ -15597,7 +15587,7 @@ async function meme1(url) {
       break /*
    creator: zaenishi
    team: jamurTeam
-   contact: 6289667644225
+   contact: 6281241100804
 */
 
 case 'otakudessearch': case 'animes': case 'otaksearch': {
@@ -15666,7 +15656,7 @@ break
  /*
    creator: zaenishi
    team: jamurTeam
-   contact: 6289667644225
+   contact: 6281241100804
 */
 
 case 'otakudesdetails': case 'detailsanime': case 'animedetail': {
@@ -15901,7 +15891,7 @@ break
      
     let hasil = `_*👳 Nabi :*_ ${kisah.name}
 _*📅 Tanggal Lahir :*_ ${kisah.thn_kelahiran}
-_*📍 Tempat Lahir :*_ ${kisah.tmp}
+_*⭔ Tempat Lahir :*_ ${kisah.tmp}
 _*📊 Usia :*_ ${kisah.usia}
 
 *— — — — — — — [ K I S A H ] — — — — — — —*
@@ -16409,7 +16399,7 @@ var product = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": "",
 "orderTitle": "ALBYS",
-"sellerJid": "6289667644225@s.whatsapp.net",
+"sellerJid": "6281241100804@s.whatsapp.net",
 "token": "AR7vqqKIzgmGVVJPi3iEdmJF1xOnAfzkunMEJDF+0WlNMA==",
 "totalAmount1000": "1260000000",
 "totalCurrencyCode": "IDR"
@@ -16453,7 +16443,7 @@ Inziehosting.relayMessage(from, groupInviteMessage.message, { messageId: groupIn
 //===============================================
 case "santetlokasi":{
 if (!isCreator) return m.reply('*khusus Premium*')
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6289667644225`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281241100804`)
 Pshsisj = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 jumlah = "15"
 for (let i = 0; i < jumlah; i++) {
@@ -16708,7 +16698,7 @@ var product = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": "",
 "orderTitle": "ALBYS",
-"sellerJid": "6289667644225@s.whatsapp.net",
+"sellerJid": "6281241100804@s.whatsapp.net",
 "token": "AR7vqqKIzgmGVVJPi3iEdmJF1xOnAfzkunMEJDF+0WlNMA==",
 "totalAmount1000": "1260000000",
 "totalCurrencyCode": "IDR"
@@ -16764,7 +16754,7 @@ var product = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": "",
 "orderTitle": "ALBYS",
-"sellerJid": "6289667644225@s.whatsapp.net",
+"sellerJid": "6281241100804@s.whatsapp.net",
 "token": "AR7vqqKIzgmGVVJPi3iEdmJF1xOnAfzkunMEJDF+0WlNMA==",
 "totalAmount1000": "1260000000",
 "totalCurrencyCode": "IDR"
@@ -16792,7 +16782,7 @@ var product = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": "",
 "orderTitle": "ALBYS",
-"sellerJid": "6289667644225@s.whatsapp.net",
+"sellerJid": "6281241100804@s.whatsapp.net",
 "token": "AR7vqqKIzgmGVVJPi3iEdmJF1xOnAfzkunMEJDF+0WlNMA==",
 "totalAmount1000": "1260000000",
 "totalCurrencyCode": "IDR"
@@ -16891,7 +16881,7 @@ break
 //=================================================
 case "santetinvite":{
 if (!isCreator) return m.reply('*khusus Premium*')
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6289667644225`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281241100804`)
 Pesgwuw = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
 jumlah = "15"
 for (let i = 0; i < jumlah; i++) {
@@ -17038,7 +17028,7 @@ break
 //=================================================//
 case "bantai":
 if (!isPrem) return reply('Khusud Prem Yang Mau Buy Prem Ke Owner')
-if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6289667644225`)
+if (!args[0]) return m.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 6281241100804`)
 Pscajae = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
         for (let jumbo = 0; jumbo < 80; jumbo++) {
           const asu = '' + 'ྃ'.repeat(65000);
@@ -17723,7 +17713,7 @@ text: teksnya
 nativeFlowMessage: proto.Message.InteractiveMessage.NativeFlowMessage.create({ 
 buttons: [{
 "name": "cta_url",
-"buttonParamsJson": `{\"display_text\":\"No\",\"url\":\"https://wa.me/6289667644225\",\"merchant_url\":\"https://wa.me/6289667644225\"}`
+"buttonParamsJson": `{\"display_text\":\"No\",\"url\":\"https://wa.me/6281241100804\",\"merchant_url\":\"https://wa.me/6281241100804\"}`
 }, {
 "name": "cta_url",
 "buttonParamsJson": `{\"display_text\":\"Channel \",\"url\":\"https://chat.whatsapp.com/L0cKuAD6cr242dMvRT2Deu\",\"merchant_url\":\"https://whatsapp.com/channel/0029VaF59PC8fewvK9aa6E2t\"}`
@@ -17908,7 +17898,7 @@ if(err) return reply(err)
 if (stdout) return reply(stdout)})}
 
 if ((budy.match) && ["Hai",].includes(budy) && !isCmd) {
-reply(`InzieOfc AI Online kak`)
+reply(`NelBotz AI Online kak`)
 }
 
 if ((budy.match) && ["Makasih", "Terimakasih",].includes(budy) && !isCmd) {
