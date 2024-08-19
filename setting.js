@@ -110,7 +110,7 @@ global.mess = {
 // SETTING IN LIMITED \\
 global.limitawal = {
     premium: "Infinity",
-    free: 15
+    free: 100
     }
 //=================================================//
 let file = require.resolve(__filename)
