@@ -27,7 +27,7 @@ const Styles = (text, style = 1) => {
 
 // SETTINGS IS BAILEYS \\
 global.baileys = require('@whiskeysockets/baileys') // Biarin Ae Jir
-global.api = 'lKLhbk8z' 
+global.api = '66c32eac2dbdbfbe412b' 
 global.logic = 'Kamu adalah Ai';
 global.linkapikey = 'https://api.betabotz.eu.org' // kalian ambil aja apikeynya di situ daftar gratis tar tinggal copy aja apikeynya
 // abistu masukin ke yang global.api
